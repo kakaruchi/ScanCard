@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>759A2427-56AF-40ED-88C6-C5619ED0B76F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ScanCard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>36218dac-90ca-4bd0-8c00-6d31736e26cf</key>
+		<string>http://192.168.1.249/svn/namecard</string>
+		<key>935e8c73-4a0b-489f-85e0-220651527b30</key>
+		<string>http://192.168.1.249/svn/travelsecond</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/ScanCard/ScanCard.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>36218dac-90ca-4bd0-8c00-6d31736e26cf</key>
+		<string>../../..</string>
+		<key>935e8c73-4a0b-489f-85e0-220651527b30</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>36218dac-90ca-4bd0-8c00-6d31736e26cf</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>935e8c73-4a0b-489f-85e0-220651527b30</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>36218dac-90ca-4bd0-8c00-6d31736e26cf</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NameCard</string>
+		</dict>
+	</array>
+</dict>
+</plist>

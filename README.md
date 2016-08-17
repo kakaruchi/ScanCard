@@ -1,2 +1,2 @@
-# ScanCard
-ScanCard Application
+# Scancard
+Scancard

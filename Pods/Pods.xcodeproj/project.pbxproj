@@ -1,0 +1,1937 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023D589C6FDD4293A29CBE60 /* notdll.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD65BBAB33C4ED4AA08AD61 /* notdll.h */; };
+		032DF3E4F8334661AA5C87D2 /* MagicalRecord+Actions.h in Headers */ = {isa = PBXBuildFile; fileRef = 873C0C667C124AD584619682 /* MagicalRecord+Actions.h */; };
+		03DB044E58B94F9198C7D808 /* unicity_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA60BE1025B4992887181C0 /* unicity_table.h */; };
+		044A3A2729FF4BC6915BD31C /* fixspace.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F594DE21864B779412A856 /* fixspace.h */; };
+		061963B8DA7B45AF8843C240 /* NSObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E9B0B7DB334582B8A69CAE /* NSObject+MagicalDataImport.h */; };
+		061E63C2D3BE4AF3A92CBDC6 /* boxread.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F1FAD75AA943D294A4C1F3 /* boxread.h */; };
+		0620A4374498486B9E255585 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 596FA9676AB44AE685D58649 /* UIViewController+REFrostedViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		0A7C83FF3D1A4B018675D8F7 /* ocrrow.h in Headers */ = {isa = PBXBuildFile; fileRef = D4777F0C2C274E8AB061C5C5 /* ocrrow.h */; };
+		0AF53DD336DC4203B144E8FE /* bmf.h in Headers */ = {isa = PBXBuildFile; fileRef = D6776AFE2326440B81EE9A56 /* bmf.h */; };
+		0B277D4A6A824E9BA0AD05F4 /* UIViewController+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 35241A78213E48068AAA6B3C /* UIViewController+REFrostedViewController.h */; };
+		0C7101DC0C854942B4A9E69D /* memry.h in Headers */ = {isa = PBXBuildFile; fileRef = 28EE3EC310B747D4826DAF9E /* memry.h */; };
+		0CAEC18495B840E8A13A3FC6 /* equationdetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 830392D8B06C41B39A63C2A7 /* equationdetect.h */; };
+		0D328CA0876A4BF5A3AA8499 /* Pods-MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D27FF6B2EBF54AEB993A1C82 /* Pods-MBProgressHUD-dummy.m */; };
+		0D3E570EAFE44F93925C7898 /* bitvector.h in Headers */ = {isa = PBXBuildFile; fileRef = 5110D2C9302E4FFEB7FBAE8E /* bitvector.h */; };
+		0ED59BD357404A7F9955C4B3 /* endianness.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC26BF91DA5412DB3485A86 /* endianness.h */; };
+		1091C0DA91B148938B4BD5DC /* NSString+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B38D0106384F23B87854B9 /* NSString+MagicalDataImport.h */; };
+		10C7FE9902FB419D849A4B82 /* NSManagedObject+MagicalFinders.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A5CB29ECEED4BB08FEB1743 /* NSManagedObject+MagicalFinders.h */; };
+		1110B675BF154C56A4ACB749 /* tessedit.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC7CC2A59664D64BC28775F /* tessedit.h */; };
+		139E217A69AC409483BE1F53 /* NSManagedObject+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC07CB2B1804C338D123067 /* NSManagedObject+MagicalDataImport.h */; };
+		143DE25EF8BC44CD927972BC /* NSManagedObject+MagicalAggregation.h in Headers */ = {isa = PBXBuildFile; fileRef = 09150F2B9E9B4E2BA3EFF568 /* NSManagedObject+MagicalAggregation.h */; };
+		17CEBA367F7C4BFA9AF5F1C7 /* unicodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F75FD78E04B42B6818E9201 /* unicodes.h */; };
+		1B1DE8C2C5184FF6A2B6CADD /* stepblob.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0066B428E643949EB64D70 /* stepblob.h */; };
+		1BA14B4B46034EEF820B357F /* quadratc.h in Headers */ = {isa = PBXBuildFile; fileRef = D37C20C0610947DC80529AE2 /* quadratc.h */; };
+		1D09744FC0AD45AF8D22966C /* hashfn.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C5EFEB10A84F308E704103 /* hashfn.h */; };
+		1D91043719A348C897465B81 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 6794A987B9744F83BDCE9739 /* stack.h */; };
+		1E261A66EB8F429D85C66C61 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5197AA44CB7446148E500012 /* UIImage+REFrostedViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1F6A5FB0D54449CF9656A7EF /* ptra.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C32A5F001F6493699222A7E /* ptra.h */; };
+		248197588D2E4B148CE87EE6 /* pageres.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D50EDAD1A54A8BBBB01DB4 /* pageres.h */; };
+		26B9BA8A4C5648738C4AE8FE /* matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 8767A5E4B25648EE931AD2EA /* matrix.h */; };
+		2704F15ED73844F383AE3F53 /* pix.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D298C153EB4826AFCB1C88 /* pix.h */; };
+		27F05242AE9349238FF3FC9C /* TesseractOCR.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CC2E05FD5DB434C8281BE26 /* TesseractOCR.h */; };
+		283F6F5D3FA24D63BDEAEE0E /* pgedit.h in Headers */ = {isa = PBXBuildFile; fileRef = E961E802FBF1401BA7301214 /* pgedit.h */; };
+		2A49CDFEBDB940098821FB4C /* hpddef.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9A0AC03D8846E190322571 /* hpddef.h */; };
+		2AE8112CBFA942C49B483C1D /* MagicalRecord+ShorthandSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 747CD88D9B4341D68A8C7AA4 /* MagicalRecord+ShorthandSupport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2CD35F8CEB6748FBA2E8C989 /* MagicalRecord+Setup.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D116D68AE4D487688D86432 /* MagicalRecord+Setup.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2E9C828783A34C0797D96984 /* osdetect.h in Headers */ = {isa = PBXBuildFile; fileRef = 527495D56B04475BB5E0346F /* osdetect.h */; };
+		2FB8F4F6466744ECA0328B05 /* points.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD099A26FB745F3AF812F0E /* points.h */; };
+		2FD4F974E0974E39BFA86ED5 /* MagicalRecord+Options.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C932980F9944D96BC9A4E27 /* MagicalRecord+Options.h */; };
+		30C3C85E1C234BFEB33601DD /* environ.h in Headers */ = {isa = PBXBuildFile; fileRef = C73A1DB548194B0D91192638 /* environ.h */; };
+		318AA0596A7841DA9BF2AFA7 /* NSManagedObject+MagicalRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = C28CCB8F6B1B46999BD6E474 /* NSManagedObject+MagicalRequests.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		31FCA4B08FF84FC9A4D3F70A /* werd.h in Headers */ = {isa = PBXBuildFile; fileRef = F6D8D0B435134E9DA8864D17 /* werd.h */; };
+		35A0551F01174E159BAED412 /* UIView+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C312D4583042B9A8ECA754 /* UIView+REFrostedViewController.h */; };
+		35D496E969734C849D785814 /* watershed.h in Headers */ = {isa = PBXBuildFile; fileRef = CE43B5D9BA40432AB975393B /* watershed.h */; };
+		3781898598D245AB97F5CFEE /* CoreData+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1BFF50B0C24895BE6470C3 /* CoreData+MagicalRecord.h */; };
+		381D1847D0C140A781956F47 /* MagicalRecord+Setup.h in Headers */ = {isa = PBXBuildFile; fileRef = 1385AA42BF524D30AB70657D /* MagicalRecord+Setup.h */; };
+		39D64DBD9385479CBE7B3EF3 /* Pods-TesseractOCRiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 177EA0DBDC6647968671158A /* Pods-TesseractOCRiOS-dummy.m */; };
+		3AEA1513668F4D8689242B40 /* libPods-MagicalRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E1C1A3A5514801B5718658 /* libPods-MagicalRecord.a */; };
+		3C8382D61C154179A602762D /* MagicalRecord+Actions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C43D75329452FAEB2C7D0 /* MagicalRecord+Actions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		3D8C428255C24131B7263ED8 /* REFrostedContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0267AD5E7EED4CB1834A5D2D /* REFrostedContainerViewController.h */; };
+		3E2D6530695A4348BEF83AD7 /* linlsq.h in Headers */ = {isa = PBXBuildFile; fileRef = 1088265B8DCB4B7D905052BF /* linlsq.h */; };
+		40CE918E2CCA4637847DDEE1 /* baseapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE8075C2AEB4977A9E05F0F /* baseapi.h */; };
+		42967DD7264349E88C63C20F /* NSString+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E9102933742D781C19E90 /* NSString+MagicalDataImport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		431A540CE36A421BBA80E021 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 460A943E11CA4B7A81C94608 /* Pods-dummy.m */; };
+		4590B6FD5B364DCAB61C1442 /* pageiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8161EEC1973547C68C6F6826 /* pageiterator.h */; };
+		4617038F393245BFB0BEFC37 /* tessvars.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB7F3C7023D49169AABD80B /* tessvars.h */; };
+		4695851F02F845DC9EE73051 /* blobs.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AE9A3469A6431D852DB34A /* blobs.h */; };
+		48493FF8F90D4FD88B29D05D /* werdit.h in Headers */ = {isa = PBXBuildFile; fileRef = 083969EA92AF4F6EB0A33FE3 /* werdit.h */; };
+		49CB21DD5EB3462496C00940 /* Tesseract.h in Headers */ = {isa = PBXBuildFile; fileRef = 834480C50474445F89D952B6 /* Tesseract.h */; };
+		4BF44AC254E5403DBE94129A /* NSRelationshipDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A31A71ACB54193B200FE8C /* NSRelationshipDescription+MagicalDataImport.h */; };
+		4DECBD6FBA9648FFB0AB8CE7 /* libPods-MBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D07725AB3149748BBCE5EC /* libPods-MBProgressHUD.a */; };
+		4E5AF95D60234EC1BB4C6E1C /* arrayaccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EC2277527041589FCC90D9 /* arrayaccess.h */; };
+		4E84098403D341E4BA32F06A /* tesscallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 2758B48CB8444FEC952DB874 /* tesscallback.h */; };
+		5039E1F26E79471791B175A9 /* ambigs.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F0C9485B8A462880781F20 /* ambigs.h */; };
+		52110C886798460CA0FD2C4C /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87441018529C48AEA0C49F96 /* RECommonFunctions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		526BB92C16264B97B10F4C68 /* scanutils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4AD1439BEF4D1491599AFD /* scanutils.h */; };
+		52E29A8C6FE44F7899951271 /* paragraphs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7F0B48D0534F4FB63AE2FC /* paragraphs.h */; };
+		53694FAB9A9A4D5892381188 /* ocrclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 592DF1B563784E51A6964AB0 /* ocrclass.h */; };
+		53C2BE9A9A334B8EAC8458D1 /* NSManagedObject+MagicalFinders.m in Sources */ = {isa = PBXBuildFile; fileRef = AE997EFC02E6493EAE0FC484 /* NSManagedObject+MagicalFinders.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		54F76FA8C8E54E9BA22F8693 /* elst.h in Headers */ = {isa = PBXBuildFile; fileRef = C2E80531D5C447869BF28990 /* elst.h */; };
+		55C341F3C6A446E48EAB02BD /* NSManagedObjectModel+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F88D86E47F48F09058A7F5 /* NSManagedObjectModel+MagicalRecord.h */; };
+		569E7B17338C44058A7221D2 /* queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FA63F68A0143F29577BAE3 /* queue.h */; };
+		56B167E4D9F04C889823BF47 /* NSManagedObjectContext+MagicalThreading.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E6421D307654647BF851A11 /* NSManagedObjectContext+MagicalThreading.h */; };
+		5891D14C387740C9B58B570C /* pdblock.h in Headers */ = {isa = PBXBuildFile; fileRef = AED500110CDA4B64816CB355 /* pdblock.h */; };
+		5A3F69B7EB5142588B862D90 /* allheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = F8121B64AF68471FA2F2030E /* allheaders.h */; };
+		5AC5793A4DD1462DA45F4E89 /* fontinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8F07A987164F5EBF607513 /* fontinfo.h */; };
+		5BED4A61785A428C8FD146ED /* NSManagedObject+MagicalRequests.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9F33F8B3E34D77851F2212 /* NSManagedObject+MagicalRequests.h */; };
+		5C6C51A8E61C4223A07CF305 /* Pods-OpenCV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EB48B841C4481483F0307E /* Pods-OpenCV-dummy.m */; };
+		5D0EEDADD3B545FB974A5E7D /* statistc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB5F37F9AE74BA8AF7FF212 /* statistc.h */; };
+		5D2324DF7AB344B4959442F3 /* tfacep.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA287FD13B64DF2A666C0F1 /* tfacep.h */; };
+		5EC4FB81087D4FB497073976 /* freetype.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ACE83C7CC44AE386F22A0D /* freetype.h */; };
+		5F97CD28C4A247BEBFA24C1B /* libPods-REFrostedViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D511962C4A1D4E2EAFF6F8F9 /* libPods-REFrostedViewController.a */; };
+		61D281F1501F44D6B6FDAEC5 /* NSManagedObjectContext+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = E36EE8CA54574EC6BC9F7CBB /* NSManagedObjectContext+MagicalRecord.h */; };
+		61E4E0CCF8654ECEBB007486 /* NSManagedObjectContext+MagicalObserving.h in Headers */ = {isa = PBXBuildFile; fileRef = 627F34860B294A53980E95B7 /* NSManagedObjectContext+MagicalObserving.h */; };
+		6226CD3953E04BA28C863A85 /* cube_reco_context.h in Headers */ = {isa = PBXBuildFile; fileRef = A01B455AB51A4906B25DE1A9 /* cube_reco_context.h */; };
+		624CAEB227884ADCBB913317 /* morph.h in Headers */ = {isa = PBXBuildFile; fileRef = C77A447AE17542C28AA113C4 /* morph.h */; };
+		633BAA681E0F4CC397DCB811 /* thresholder.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C05C1ECB9F45AABDE1C340 /* thresholder.h */; };
+		63F30E85AB0D425796F7D773 /* REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 898C2866C72A4FECB4102679 /* REFrostedViewController.h */; };
+		64C67D95B4F34833A61EB78D /* quadlsq.h in Headers */ = {isa = PBXBuildFile; fileRef = 926E3BB7F30A4D31902C2389 /* quadlsq.h */; };
+		64D80FC8CFD14DD2BF134D91 /* NSNumber+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E50F0AE48FD4FA4B52B85FF /* NSNumber+MagicalDataImport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		65950B9AD87F487081E22474 /* mfcpch.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9795EB104A4A2B8249262A /* mfcpch.h */; };
+		65961DF5A02C48F9AB26FEFD /* sudoku.h in Headers */ = {isa = PBXBuildFile; fileRef = 552C8444C6CA4DD883C92FE9 /* sudoku.h */; };
+		670C24E03E124F6FB2908AD4 /* seam.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F4A2123CE44A7086267485 /* seam.h */; };
+		67E93BD32B8B48949C11FE73 /* NSManagedObjectContext+MagicalThreading.m in Sources */ = {isa = PBXBuildFile; fileRef = 758435CBC5604D978105CCEC /* NSManagedObjectContext+MagicalThreading.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		68594E9873C748538AF72F92 /* ipoints.h in Headers */ = {isa = PBXBuildFile; fileRef = A20CA2BBAE644F84B6F4041D /* ipoints.h */; };
+		68AD2F3FED4D4EF8BA4BD3A9 /* normalis.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C47B4BB1184C51AF4D8C6F /* normalis.h */; };
+		696E05549E3D418DB1B9637D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DF306031FF468284534352 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		6A70860532FC44B5B33AAE66 /* fileerr.h in Headers */ = {isa = PBXBuildFile; fileRef = FEBBC39219AE40DDB47D27E9 /* fileerr.h */; };
+		6AF3C2B698A14DD79985C384 /* unicharmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 8846FEE9AF984144AA575C0E /* unicharmap.h */; };
+		6BE5C6700C51468EBDBDB64F /* output.h in Headers */ = {isa = PBXBuildFile; fileRef = 688F9F60B5464E5B9DDB077E /* output.h */; };
+		6C8FA555AD6847868C6443B9 /* ratngs.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFEEE73820B4DEBB81B5363 /* ratngs.h */; };
+		6D2C0798CDF64F5389D4AF30 /* coutln.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C084EAD12BA4213BCB482B6 /* coutln.h */; };
+		6EB73A25F8E146ADA8EB6832 /* detlinefit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA2A1587C4147F8A577485F /* detlinefit.h */; };
+		6EF475D29AEB4A1DADCB29AB /* NSAttributeDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 405CD6CB27D34721B5BEF3C3 /* NSAttributeDescription+MagicalDataImport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		6FDEC542935744209E78D5D6 /* paragraphs_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1DA1FDBE034294BDFE960D /* paragraphs_internal.h */; };
+		707E104A24564E20BA78FF7A /* cubeclassifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 58543879ECF546CA80B5FF00 /* cubeclassifier.h */; };
+		7168AE8F87A94D7EA23316DA /* imgscale.h in Headers */ = {isa = PBXBuildFile; fileRef = 853485D1630B4A9AAD463667 /* imgscale.h */; };
+		732B0308ED6143308C28D7BA /* tprintf.h in Headers */ = {isa = PBXBuildFile; fileRef = CEAD96DA17F24DA897334822 /* tprintf.h */; };
+		73A3B57F081F4141B446943A /* gplot.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C2240C7F38449395E11349 /* gplot.h */; };
+		75A9311558B3478AB09D9D73 /* elst2.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5C401FCECD42268176C7A5 /* elst2.h */; };
+		773C31219E964A58B3875811 /* MagicalRecord+ErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D29325B25DC4250B4C9C954 /* MagicalRecord+ErrorHandling.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		783EAA40B225404194F577E0 /* polyblk.h in Headers */ = {isa = PBXBuildFile; fileRef = E4599781F0C74CFA8727EFC1 /* polyblk.h */; };
+		7AF55462219A4180BA00AE1E /* blobbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5D569B60974161A1A78384 /* blobbox.h */; };
+		7B60D8001D704A038E082832 /* MagicalRecord+ShorthandSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 201B4A0FC8884623AE37C2B4 /* MagicalRecord+ShorthandSupport.h */; };
+		7D0A9E48916940A0B49F286B /* bbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = EE04F6A47B684D2F9FDB40D0 /* bbuffer.h */; };
+		7E069CCC89C6425EBBC3E823 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 31AD5066EEA0421EAB53AACC /* platform.h */; };
+		7E2F536D2E4B4CBD82E7D2FE /* basedir.h in Headers */ = {isa = PBXBuildFile; fileRef = 051EBC47E7D9461F89DBE1B6 /* basedir.h */; };
+		7F111BED7A04451A88F4A239 /* NSRelationshipDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CA0545390245B5A61CDFF6 /* NSRelationshipDescription+MagicalDataImport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7F3B4F692FEE4CACAB1E7FC8 /* NSNumber+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 7386FF11430D444F9E72048B /* NSNumber+MagicalDataImport.h */; };
+		81300E2C4F324B718DD7B7F5 /* scaleimg.h in Headers */ = {isa = PBXBuildFile; fileRef = B362F28D462C4C0F87F2D2AA /* scaleimg.h */; };
+		817416171ACB4332924A9286 /* ccstruct.h in Headers */ = {isa = PBXBuildFile; fileRef = F43C9FCEAB9F45DEAA92C0FB /* ccstruct.h */; };
+		81FA7D828CA4464D89FCFC8F /* ccutil.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6002495C934572AC25CC6B /* ccutil.h */; };
+		83E68567D1C149F18625338A /* MagicalRecordShorthand.h in Headers */ = {isa = PBXBuildFile; fileRef = FDEDA335D2DF40489A5388B2 /* MagicalRecordShorthand.h */; };
+		892DD33341684B8B9CEC9BB0 /* tesseractclass.h in Headers */ = {isa = PBXBuildFile; fileRef = FB37080D25ED46AB81CCE355 /* tesseractclass.h */; };
+		8ADFD414289B42E7917C5673 /* MagicalImportFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D9A11F7C984AD4B2F70CE9 /* MagicalImportFunctions.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		8D5E0D420B184D73906B758E /* MagicalRecord+iCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B314E2877A4B5DA1B89E92 /* MagicalRecord+iCloud.h */; };
+		8F35BAFA94B744B4A529298A /* MagicalRecord+Options.m in Sources */ = {isa = PBXBuildFile; fileRef = E454B60B93B34BC2928AE3CB /* MagicalRecord+Options.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		906F3909B9F946AF985A744C /* blckerr.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3852FFBADB4107AC98C65B /* blckerr.h */; };
+		9141B203FAA34555AF6F994F /* sorthelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E88FC8F31A6244D1B939F1C7 /* sorthelper.h */; };
+		92E1C4C383C84D898D8803D0 /* otsuthr.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B4F831141145BBBC68F15C /* otsuthr.h */; };
+		936DEAF49A9E46D8B6A8E7E4 /* blread.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D328DF7DF884C828988DBFC /* blread.h */; };
+		93F9CB92C47C40B5912568E6 /* params_training_featdef.h in Headers */ = {isa = PBXBuildFile; fileRef = 5581513B90A94012839E8A66 /* params_training_featdef.h */; };
+		94DAB8CCFA8B489EB1F4F84A /* ltrresultiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC4BB528ABD464985060097 /* ltrresultiterator.h */; };
+		955752E927A74A30A722799B /* split.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA2634A04E54A09A602BF66 /* split.h */; };
+		971EBAC8CBE54CB9BF29119A /* rejctmap.h in Headers */ = {isa = PBXBuildFile; fileRef = C072DE236B0D47C7AA72EBA6 /* rejctmap.h */; };
+		9846E78AC94B46098FDF3267 /* params.h in Headers */ = {isa = PBXBuildFile; fileRef = B18439813FE6423BA4F416EC /* params.h */; };
+		9858DC5618E2413E879DB2A4 /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = B09835684F9B40F7817C10DD /* RECommonFunctions.h */; };
+		98B5D64D89F84AA7B0D37282 /* array.h in Headers */ = {isa = PBXBuildFile; fileRef = 8133AE2FC78947B98CD84DC6 /* array.h */; };
+		998D182EBB0B47C289746688 /* indexmapbidi.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D332C47A2AB4D6690C487CD /* indexmapbidi.h */; };
+		9B87E118E6EC4BBEA1E6C222 /* regutils.h in Headers */ = {isa = PBXBuildFile; fileRef = B796222D6DB3486B92B96E7F /* regutils.h */; };
+		9C8BEAAB1F574D91A3DE3C07 /* errcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 41535AC40ED448ACB8F65867 /* errcode.h */; };
+		9D479842F02445B6B2EB2A45 /* readbarcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBAB9AA226C4030A08B43FE /* readbarcode.h */; };
+		9E9ACE9D46EF4653A98C7855 /* dppoint.h in Headers */ = {isa = PBXBuildFile; fileRef = AD343245FCF549C697241D7F /* dppoint.h */; };
+		A2A183895DEC4B3E8F3A87FD /* leptwin.h in Headers */ = {isa = PBXBuildFile; fileRef = 75C6CD7CE31C43D691B1FCA0 /* leptwin.h */; };
+		A36649823F1E4B788AEC0428 /* NSManagedObjectContext+MagicalObserving.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C309A66C0E4865B63503B6 /* NSManagedObjectContext+MagicalObserving.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A39CBCFB623849E7A6E85C65 /* MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 55912C9CB39C458A810B988B /* MagicalRecord.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A43C59DBD8E3452DB1C3153E /* docqual.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB982D2016D409286D5E282 /* docqual.h */; };
+		A4F21DFA68C04888A5D6275E /* nwmain.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EC8EC719D884C2388F2FBB9 /* nwmain.h */; };
+		A55EE45623FB4841ABD54E0B /* NSManagedObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2C791C3143428DB61C5888 /* NSManagedObject+MagicalDataImport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A61C176BCD3947908C205F14 /* Pods-MagicalRecord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2221530D1C89496DAFD743EB /* Pods-MagicalRecord-dummy.m */; };
+		A703869889EA492AB1191823 /* MagicalRecord+ErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D01F191E1AE429C9FD9B3EC /* MagicalRecord+ErrorHandling.h */; };
+		AAC4C2063C5E4D5BBD0D4286 /* NSEntityDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = FF952385708D4C598D9135C7 /* NSEntityDescription+MagicalDataImport.h */; };
+		AB0186EDD9EE4E4880E22CA2 /* ocrblock.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB037300B1D480E87C9756C /* ocrblock.h */; };
+		AB2F7572960A4A979C384AAA /* libPods-OpenCV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 127F1391F8FE4A27A1A8EB96 /* libPods-OpenCV.a */; };
+		AB52D63A1EAA4ACBA4269758 /* imageio.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF6B3A6CBFF4E738D05CACC /* imageio.h */; };
+		AC157F026F704FD0A3F802A4 /* bmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F6B71C32828419488B7E44D /* bmp.h */; };
+		AD682522001A47F28A98CD88 /* Pods-REFrostedViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F95E09B15EC4C74AB038C37 /* Pods-REFrostedViewController-dummy.m */; };
+		AD6DC5DAC0F34D15B5FB95DD /* bits16.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E0ACFA73F74047AEF17090 /* bits16.h */; };
+		AEF6D584CD014C948D918981 /* control.h in Headers */ = {isa = PBXBuildFile; fileRef = 698C16DE532847148387F74E /* control.h */; };
+		B1FEE0C85E214CCF87470EB9 /* polyaprx.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1FB74C100546199049F548 /* polyaprx.h */; };
+		B25EE5729CA3437CB5C25BBC /* vecfuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = 286A8B9DB8374FA3A8B0EACF /* vecfuncs.h */; };
+		B2A96F07825545ECA7ED5E43 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA7B14DA37544DEB0250C19 /* MBProgressHUD.h */; };
+		B32FAF2299E44A4394B2C8DB /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AA925C0093421185B85FB7 /* REFrostedContainerViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		B704F9942BF14B96BB534C69 /* libPods-TesseractOCRiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A13AAEE712645ED8DC38F23 /* libPods-TesseractOCRiOS.a */; };
+		B7334EF43B1F45DDB741E353 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E39C924AACE4E69804E5DE8 /* NSPersistentStoreCoordinator+MagicalRecord.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		B83D8862E8BB45E5B5E5B6B9 /* globaloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 907A30F343D2411DBB394336 /* globaloc.h */; };
+		B965319F66134F5AB28E4D69 /* unicharset.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5881FD12AD4B9E998A5D88 /* unicharset.h */; };
+		BCF0262242FA42CE871A7C64 /* ocrpara.h in Headers */ = {isa = PBXBuildFile; fileRef = F7799CFC980340F0B827481F /* ocrpara.h */; };
+		BD787F308B7F4D5E8430E75C /* heap.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B08A420C344289A5ACE960 /* heap.h */; };
+		BDC4F975AFE64566B0AD840B /* tesseractmain.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F935A264AE4AB1830B3017 /* tesseractmain.h */; };
+		BE42A2DA199345D2B56A8633 /* crakedge.h in Headers */ = {isa = PBXBuildFile; fileRef = 4570B1CBCE7148D084E95589 /* crakedge.h */; };
+		BEAA2EFB9060493D959AC27A /* apitypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCBCE8201AD41109A8EC6A8 /* apitypes.h */; };
+		BF2FAC019D2540BC96174E6B /* NSObject+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FA5E20851347E5A0EE93F9 /* NSObject+MagicalDataImport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		BF8F38A2468648CEB7E8C365 /* NSManagedObject+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C88C90BCA8A14A02ADD1674C /* NSManagedObject+MagicalRecord.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		BFEB2856886A407A97B99386 /* reject.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7B13576A1C471F81DE8474 /* reject.h */; };
+		C2C9B61D39BE4C5E85E6A039 /* tessdatamanager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABDF1175BA2E4C088349A6E8 /* tessdatamanager.h */; };
+		C3F92ED9EDB2459482B6C936 /* resultiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3D36B5583840DE8FF64FEB /* resultiterator.h */; };
+		C5119159E9664107976AC8CA /* hpdsizes.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E71F24B87B44FAAAEC676B /* hpdsizes.h */; };
+		C51B8C55BAC84C838CFF5A4A /* NSManagedObjectContext+MagicalSaves.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7B9D95F2054DE3A2C155BA /* NSManagedObjectContext+MagicalSaves.h */; };
+		C6D16F16D29B4D5C9D1881A3 /* qrsequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE3C51840BD49E596672D01 /* qrsequence.h */; };
+		C70A8460FBF2417A80601F45 /* capi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C4FE25E9A3940438F4512CB /* capi.h */; };
+		C86AE9DE1B3843C7BB848A32 /* NSAttributeDescription+MagicalDataImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B4C29EADCC04E068E85F08C /* NSAttributeDescription+MagicalDataImport.h */; };
+		CBA13432C5A74966B6E015D1 /* hosthplb.h in Headers */ = {isa = PBXBuildFile; fileRef = 15A42D8139C94E84821CFE2C /* hosthplb.h */; };
+		CCEA68C37F994C05BEB8B591 /* boxword.h in Headers */ = {isa = PBXBuildFile; fileRef = A88C59E6BEF5432987B62318 /* boxword.h */; };
+		CDDAA445ACD14544B868811A /* tesseract_cube_combiner.h in Headers */ = {isa = PBXBuildFile; fileRef = 05AB76FF9E4F4D59B773A78D /* tesseract_cube_combiner.h */; };
+		CE5DB57D6FF6464896009903 /* NSManagedObjectContext+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 063373962EBA45AE93D26685 /* NSManagedObjectContext+MagicalRecord.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		CF1F81BB995C40668D0F6E1D /* rect.h in Headers */ = {isa = PBXBuildFile; fileRef = E980EF2D33D34AC4870C8757 /* rect.h */; };
+		D2C6FB60C0F84F0397894036 /* paramsd.h in Headers */ = {isa = PBXBuildFile; fileRef = 32345FA07C604CC2B1CF5158 /* paramsd.h */; };
+		D2F86964ADAB44E98EFD8FEE /* mutableiterator.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C74C599F2B4F548740E477 /* mutableiterator.h */; };
+		D38FB460518A446D8E8E42C1 /* NSManagedObjectContext+MagicalSaves.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC8DEC8CEF041D3BD6F3ED3 /* NSManagedObjectContext+MagicalSaves.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		D402C9BFAC464A389EBACA91 /* mod128.h in Headers */ = {isa = PBXBuildFile; fileRef = BF24B7CC0B644CCCA218AACB /* mod128.h */; };
+		D4AE5E2A02BC4D0188688218 /* clst.h in Headers */ = {isa = PBXBuildFile; fileRef = 629EBA6866394F3B82FE316B /* clst.h */; };
+		D542A1BB309546F8A5258565 /* tfacepp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC55B101016485990083EE3 /* tfacepp.h */; };
+		D5F2311A7B344F51A43864D7 /* NSManagedObject+MagicalAggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6915AFE79BF943E48F4255F0 /* NSManagedObject+MagicalAggregation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		D6883EBB5AE14808BE7D0EDF /* host.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EBE729717EC4D3495D992A4 /* host.h */; };
+		D76CEA3E4BCB424B9BA960D7 /* ccbord.h in Headers */ = {isa = PBXBuildFile; fileRef = AF49ED03C95D41399DD49185 /* ccbord.h */; };
+		DA1AAE03FF5845FCBA2B9A16 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E03641DA9A954717B552FA51 /* UIView+REFrostedViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		DEC894B59D964D38A51BFC6F /* serialis.h in Headers */ = {isa = PBXBuildFile; fileRef = AA33CD4EBC68472B878F0078 /* serialis.h */; };
+		DFF3419BB9C443C8B1CDE558 /* NSPersistentStoreCoordinator+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC37A8C20CD4D37B8164186 /* NSPersistentStoreCoordinator+MagicalRecord.h */; };
+		E023C8A59181479C88A6014F /* genblob.h in Headers */ = {isa = PBXBuildFile; fileRef = A8405AD2038F4BCAAA06BD0C /* genblob.h */; };
+		E0AF55A21DD945E286BD4273 /* ndminx.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3DFAC3263E47B1821E9B45 /* ndminx.h */; };
+		E353AE79B935425BA23565EE /* MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D2219CE72A0146FE9226412E /* MagicalRecord.h */; };
+		E3879010D3EA4317BAC82F22 /* NSPersistentStore+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = F09244E966474178846A2234 /* NSPersistentStore+MagicalRecord.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		E47DCDC2E7BC4EB9A653D78A /* quspline.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E253D9CC9C74FF7A9FAD604 /* quspline.h */; };
+		E543704B02B34098A86ACF0E /* alltypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CBDAA2626854836BABC89F1 /* alltypes.h */; };
+		E59CBD9174C5451CB375C9AD /* strngs.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0E3991FF8F4DC28BF08B1D /* strngs.h */; };
+		E5A9B213F96F48959682ADAF /* lsterr.h in Headers */ = {isa = PBXBuildFile; fileRef = B4CFCE5B4CB24E9F9F8B9599 /* lsterr.h */; };
+		E7C0F9943FB1467CA18BFE9D /* jbclass.h in Headers */ = {isa = PBXBuildFile; fileRef = F20429146E3C4AF28CDC6932 /* jbclass.h */; };
+		E947A4B42A604970B281F9FF /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = 5341CD925A7C4973861C2A14 /* list.h */; };
+		E9F94F38826C4641870A34D0 /* tessbox.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1190F30D704A19AD964C89 /* tessbox.h */; };
+		EA7D8A8C5D064DE189D74488 /* secname.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C76845EB55043CB8D3A2A3C /* secname.h */; };
+		EB0E67CC5A54472CB49CA6B6 /* NSPersistentStore+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AB85779464042E684023B3D /* NSPersistentStore+MagicalRecord.h */; };
+		EC27244B95434223A0FCA52B /* NSManagedObject+MagicalRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E8247D335049BDA75E85AB /* NSManagedObject+MagicalRecord.h */; };
+		ED13185D79D146D8A3CCC6EE /* NSManagedObjectModel+MagicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DA2D0AA06B481EAFCB78B1 /* NSManagedObjectModel+MagicalRecord.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		ED538EA2D0A64F92AD35E1BF /* dewarp.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A9FB472D8D4E45A0E7BABF /* dewarp.h */; };
+		EE1B3BF8FD444B2FB2FB6B8F /* NSEntityDescription+MagicalDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 700FF6A9AB7248239CAEAB40 /* NSEntityDescription+MagicalDataImport.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F098EB7AE2A64800BEDDB266 /* helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4038DEF17840BD8D5730FF /* helpers.h */; };
+		F100C8CD30B74F8D816F8C33 /* publictypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC20B9A3EAD4315BB10EFFC /* publictypes.h */; };
+		F12F726E3B50407E8B0A0313 /* unichar.h in Headers */ = {isa = PBXBuildFile; fileRef = 492987DA772745479DD63BEE /* unichar.h */; };
+		F34A8B53EA714DA89F8B4EAA /* UIImage+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8029F5761EB44AF08E0AF5F0 /* UIImage+REFrostedViewController.h */; };
+		F52A673699F3465587ED4B5C /* MagicalRecord+iCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = C06C2224BA7B416091B544E5 /* MagicalRecord+iCloud.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F570446FB35F4ADBAD4C15DB /* genericvector.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F9A4F76B89467C8C7FFF18 /* genericvector.h */; };
+		F87F0E7149794347AAA3C571 /* stderr.h in Headers */ = {isa = PBXBuildFile; fileRef = C221BBCB18EA43AA86C17A41 /* stderr.h */; };
+		FA62AB59FB7D4664AC0C46DD /* MagicalImportFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BECE98FAFA4B2AAF4E6AA7 /* MagicalImportFunctions.h */; };
+		FE7BAD50831C455A951393F9 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475CAB415F454A06B784F0C3 /* REFrostedViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D19F79EE5694388BB7346C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277B5434FBE143FA90A8CB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AD1DAB6A34A4096B6EDDAAC;
+			remoteInfo = "Pods-REFrostedViewController";
+		};
+		20D5381E54464290B08FAB18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277B5434FBE143FA90A8CB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09368B2C165F4AD881F9A28E;
+			remoteInfo = "Pods-MagicalRecord";
+		};
+		3AE4508F84E54D94AFDD98DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277B5434FBE143FA90A8CB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F413C858CE4E868022461F;
+			remoteInfo = "Pods-OpenCV";
+		};
+		738F4438FEAE4D54AAE422BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277B5434FBE143FA90A8CB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 295F6BDD4C68419BB9F309AC;
+			remoteInfo = "Pods-MBProgressHUD";
+		};
+		F1FE139E1AC34735BBC3A054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277B5434FBE143FA90A8CB96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24075ED08AB041F8AA4814D9;
+			remoteInfo = "Pods-TesseractOCRiOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002D269E2D5948078CA61BAC /* Pods-OpenCV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenCV.xcconfig"; sourceTree = "<group>"; };
+		01C312D4583042B9A8ECA754 /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+REFrostedViewController.h"; path = "REFrostedViewController/UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		0267AD5E7EED4CB1834A5D2D /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFrostedContainerViewController.h; path = REFrostedViewController/REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		051EBC47E7D9461F89DBE1B6 /* basedir.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = basedir.h; path = TesseractOCR/include/tesseract/basedir.h; sourceTree = "<group>"; };
+		05AB76FF9E4F4D59B773A78D /* tesseract_cube_combiner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesseract_cube_combiner.h; path = TesseractOCR/include/tesseract/tesseract_cube_combiner.h; sourceTree = "<group>"; };
+		063373962EBA45AE93D26685 /* NSManagedObjectContext+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.m"; sourceTree = "<group>"; };
+		07B08A420C344289A5ACE960 /* heap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = heap.h; path = TesseractOCR/include/leptonica/heap.h; sourceTree = "<group>"; };
+		083969EA92AF4F6EB0A33FE3 /* werdit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = werdit.h; path = TesseractOCR/include/tesseract/werdit.h; sourceTree = "<group>"; };
+		09150F2B9E9B4E2BA3EFF568 /* NSManagedObject+MagicalAggregation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalAggregation.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.h"; sourceTree = "<group>"; };
+		0959304CD5C34EC5BD07B2ED /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TesseractOCR.framework; path = Products/TesseractOCR.framework; sourceTree = "<group>"; };
+		0A3DFAC3263E47B1821E9B45 /* ndminx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ndminx.h; path = TesseractOCR/include/tesseract/ndminx.h; sourceTree = "<group>"; };
+		0AF6B3A6CBFF4E738D05CACC /* imageio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imageio.h; path = TesseractOCR/include/leptonica/imageio.h; sourceTree = "<group>"; };
+		0B4C29EADCC04E068E85F08C /* NSAttributeDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributeDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		0C1C43D75329452FAEB2C7D0 /* MagicalRecord+Actions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Actions.m"; path = "MagicalRecord/Core/MagicalRecord+Actions.m"; sourceTree = "<group>"; };
+		0D1BFF50B0C24895BE6470C3 /* CoreData+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CoreData+MagicalRecord.h"; path = "MagicalRecord/CoreData+MagicalRecord.h"; sourceTree = "<group>"; };
+		0EB9E696005B4DEF9ADB6295 /* Pods-TesseractOCRiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TesseractOCRiOS.xcconfig"; sourceTree = "<group>"; };
+		0EBE729717EC4D3495D992A4 /* host.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = host.h; path = TesseractOCR/include/tesseract/host.h; sourceTree = "<group>"; };
+		0FE8075C2AEB4977A9E05F0F /* baseapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = baseapi.h; path = TesseractOCR/include/tesseract/baseapi.h; sourceTree = "<group>"; };
+		1088265B8DCB4B7D905052BF /* linlsq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = linlsq.h; path = TesseractOCR/include/tesseract/linlsq.h; sourceTree = "<group>"; };
+		127F1391F8FE4A27A1A8EB96 /* libPods-OpenCV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenCV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1385AA42BF524D30AB70657D /* MagicalRecord+Setup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Setup.h"; path = "MagicalRecord/Core/MagicalRecord+Setup.h"; sourceTree = "<group>"; };
+		15A42D8139C94E84821CFE2C /* hosthplb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hosthplb.h; path = TesseractOCR/include/tesseract/hosthplb.h; sourceTree = "<group>"; };
+		177EA0DBDC6647968671158A /* Pods-TesseractOCRiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TesseractOCRiOS-dummy.m"; sourceTree = "<group>"; };
+		1CC2E05FD5DB434C8281BE26 /* TesseractOCR.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TesseractOCR.h; path = TesseractOCR/TesseractOCR.h; sourceTree = "<group>"; };
+		1E2C791C3143428DB61C5888 /* NSManagedObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalDataImport.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.m"; sourceTree = "<group>"; };
+		1E7B9D95F2054DE3A2C155BA /* NSManagedObjectContext+MagicalSaves.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalSaves.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.h"; sourceTree = "<group>"; };
+		1F1DA1FDBE034294BDFE960D /* paragraphs_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paragraphs_internal.h; path = TesseractOCR/include/tesseract/paragraphs_internal.h; sourceTree = "<group>"; };
+		201B4A0FC8884623AE37C2B4 /* MagicalRecord+ShorthandSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ShorthandSupport.h"; path = "MagicalRecord/Core/MagicalRecord+ShorthandSupport.h"; sourceTree = "<group>"; };
+		21E9B0B7DB334582B8A69CAE /* NSObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		2221530D1C89496DAFD743EB /* Pods-MagicalRecord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagicalRecord-dummy.m"; sourceTree = "<group>"; };
+		22EB48B841C4481483F0307E /* Pods-OpenCV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenCV-dummy.m"; sourceTree = "<group>"; };
+		22FA63F68A0143F29577BAE3 /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queue.h; path = TesseractOCR/include/leptonica/queue.h; sourceTree = "<group>"; };
+		23B38D0106384F23B87854B9 /* NSString+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.h"; sourceTree = "<group>"; };
+		25E71F24B87B44FAAAEC676B /* hpdsizes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hpdsizes.h; path = TesseractOCR/include/tesseract/hpdsizes.h; sourceTree = "<group>"; };
+		26F935A264AE4AB1830B3017 /* tesseractmain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesseractmain.h; path = TesseractOCR/include/tesseract/tesseractmain.h; sourceTree = "<group>"; };
+		2758B48CB8444FEC952DB874 /* tesscallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesscallback.h; path = TesseractOCR/include/tesseract/tesscallback.h; sourceTree = "<group>"; };
+		27ACE83C7CC44AE386F22A0D /* freetype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = freetype.h; path = TesseractOCR/include/leptonica/freetype.h; sourceTree = "<group>"; };
+		27C2240C7F38449395E11349 /* gplot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gplot.h; path = TesseractOCR/include/leptonica/gplot.h; sourceTree = "<group>"; };
+		27CA0545390245B5A61CDFF6 /* NSRelationshipDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSRelationshipDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		286A8B9DB8374FA3A8B0EACF /* vecfuncs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vecfuncs.h; path = TesseractOCR/include/tesseract/vecfuncs.h; sourceTree = "<group>"; };
+		28EE3EC310B747D4826DAF9E /* memry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = memry.h; path = TesseractOCR/include/tesseract/memry.h; sourceTree = "<group>"; };
+		29F4A2123CE44A7086267485 /* seam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seam.h; path = TesseractOCR/include/tesseract/seam.h; sourceTree = "<group>"; };
+		2AB982D2016D409286D5E282 /* docqual.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = docqual.h; path = TesseractOCR/include/tesseract/docqual.h; sourceTree = "<group>"; };
+		2C932980F9944D96BC9A4E27 /* MagicalRecord+Options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Options.h"; path = "MagicalRecord/Core/MagicalRecord+Options.h"; sourceTree = "<group>"; };
+		2C9795EB104A4A2B8249262A /* mfcpch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mfcpch.h; path = TesseractOCR/include/tesseract/mfcpch.h; sourceTree = "<group>"; };
+		2E1BB73027C1465E8C860CAE /* Pods-OpenCV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenCV-prefix.pch"; sourceTree = "<group>"; };
+		2EC8EC719D884C2388F2FBB9 /* nwmain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nwmain.h; path = TesseractOCR/include/tesseract/nwmain.h; sourceTree = "<group>"; };
+		2F6B71C32828419488B7E44D /* bmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmp.h; path = TesseractOCR/include/leptonica/bmp.h; sourceTree = "<group>"; };
+		2F95E09B15EC4C74AB038C37 /* Pods-REFrostedViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-REFrostedViewController-dummy.m"; sourceTree = "<group>"; };
+		2FBAB9AA226C4030A08B43FE /* readbarcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = readbarcode.h; path = TesseractOCR/include/leptonica/readbarcode.h; sourceTree = "<group>"; };
+		31AD5066EEA0421EAB53AACC /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform.h; path = TesseractOCR/include/tesseract/platform.h; sourceTree = "<group>"; };
+		31D298C153EB4826AFCB1C88 /* pix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pix.h; path = TesseractOCR/include/leptonica/pix.h; sourceTree = "<group>"; };
+		32345FA07C604CC2B1CF5158 /* paramsd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paramsd.h; path = TesseractOCR/include/tesseract/paramsd.h; sourceTree = "<group>"; };
+		32A9FB472D8D4E45A0E7BABF /* dewarp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dewarp.h; path = TesseractOCR/include/leptonica/dewarp.h; sourceTree = "<group>"; };
+		35241A78213E48068AAA6B3C /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+REFrostedViewController.h"; path = "REFrostedViewController/UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		35E0ACFA73F74047AEF17090 /* bits16.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bits16.h; path = TesseractOCR/include/tesseract/bits16.h; sourceTree = "<group>"; };
+		36F0C9485B8A462880781F20 /* ambigs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ambigs.h; path = TesseractOCR/include/tesseract/ambigs.h; sourceTree = "<group>"; };
+		39BECE98FAFA4B2AAF4E6AA7 /* MagicalImportFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalImportFunctions.h; path = MagicalRecord/Categories/DataImport/MagicalImportFunctions.h; sourceTree = "<group>"; };
+		3A13AAEE712645ED8DC38F23 /* libPods-TesseractOCRiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TesseractOCRiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4FE25E9A3940438F4512CB /* capi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = capi.h; path = TesseractOCR/include/tesseract/capi.h; sourceTree = "<group>"; };
+		3C9849F3AC184007972C0775 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		3CB0B481A7F64F2FAE342D97 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		3CC07CB2B1804C338D123067 /* NSManagedObject+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalDataImport.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalDataImport.h"; sourceTree = "<group>"; };
+		3D328DF7DF884C828988DBFC /* blread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blread.h; path = TesseractOCR/include/tesseract/blread.h; sourceTree = "<group>"; };
+		405CD6CB27D34721B5BEF3C3 /* NSAttributeDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributeDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSAttributeDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		408F46447AFC4A18B4DC0857 /* Pods-REFrostedViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REFrostedViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		41535AC40ED448ACB8F65867 /* errcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errcode.h; path = TesseractOCR/include/tesseract/errcode.h; sourceTree = "<group>"; };
+		4570B1CBCE7148D084E95589 /* crakedge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crakedge.h; path = TesseractOCR/include/tesseract/crakedge.h; sourceTree = "<group>"; };
+		460A943E11CA4B7A81C94608 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		46190C45A04E423DAF04A8FB /* Pods-MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		46A31A71ACB54193B200FE8C /* NSRelationshipDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSRelationshipDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSRelationshipDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+		475CAB415F454A06B784F0C3 /* REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFrostedViewController.m; path = REFrostedViewController/REFrostedViewController.m; sourceTree = "<group>"; };
+		492987DA772745479DD63BEE /* unichar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unichar.h; path = TesseractOCR/include/tesseract/unichar.h; sourceTree = "<group>"; };
+		4AA2A1587C4147F8A577485F /* detlinefit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = detlinefit.h; path = TesseractOCR/include/tesseract/detlinefit.h; sourceTree = "<group>"; };
+		4BC4BB528ABD464985060097 /* ltrresultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ltrresultiterator.h; path = TesseractOCR/include/tesseract/ltrresultiterator.h; sourceTree = "<group>"; };
+		4BFEEE73820B4DEBB81B5363 /* ratngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ratngs.h; path = TesseractOCR/include/tesseract/ratngs.h; sourceTree = "<group>"; };
+		4D332C47A2AB4D6690C487CD /* indexmapbidi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = indexmapbidi.h; path = TesseractOCR/include/tesseract/indexmapbidi.h; sourceTree = "<group>"; };
+		4D5881FD12AD4B9E998A5D88 /* unicharset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicharset.h; path = TesseractOCR/include/tesseract/unicharset.h; sourceTree = "<group>"; };
+		4FB5F37F9AE74BA8AF7FF212 /* statistc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = statistc.h; path = TesseractOCR/include/tesseract/statistc.h; sourceTree = "<group>"; };
+		5110D2C9302E4FFEB7FBAE8E /* bitvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bitvector.h; path = TesseractOCR/include/tesseract/bitvector.h; sourceTree = "<group>"; };
+		5197AA44CB7446148E500012 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+REFrostedViewController.m"; path = "REFrostedViewController/UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		527495D56B04475BB5E0346F /* osdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = osdetect.h; path = TesseractOCR/include/tesseract/osdetect.h; sourceTree = "<group>"; };
+		52B314E2877A4B5DA1B89E92 /* MagicalRecord+iCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+iCloud.h"; path = "MagicalRecord/Core/MagicalRecord+iCloud.h"; sourceTree = "<group>"; };
+		5341CD925A7C4973861C2A14 /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = TesseractOCR/include/leptonica/list.h; sourceTree = "<group>"; };
+		5400491C78E842A697613CE7 /* Pods-TesseractOCRiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TesseractOCRiOS-prefix.pch"; sourceTree = "<group>"; };
+		552C8444C6CA4DD883C92FE9 /* sudoku.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sudoku.h; path = TesseractOCR/include/leptonica/sudoku.h; sourceTree = "<group>"; };
+		5581513B90A94012839E8A66 /* params_training_featdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params_training_featdef.h; path = TesseractOCR/include/tesseract/params_training_featdef.h; sourceTree = "<group>"; };
+		55912C9CB39C458A810B988B /* MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalRecord.m; path = MagicalRecord/Core/MagicalRecord.m; sourceTree = "<group>"; };
+		55AE9A3469A6431D852DB34A /* blobs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blobs.h; path = TesseractOCR/include/tesseract/blobs.h; sourceTree = "<group>"; };
+		56F1FAD75AA943D294A4C1F3 /* boxread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = boxread.h; path = TesseractOCR/include/tesseract/boxread.h; sourceTree = "<group>"; };
+		58543879ECF546CA80B5FF00 /* cubeclassifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cubeclassifier.h; path = TesseractOCR/include/tesseract/cubeclassifier.h; sourceTree = "<group>"; };
+		592DF1B563784E51A6964AB0 /* ocrclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrclass.h; path = TesseractOCR/include/tesseract/ocrclass.h; sourceTree = "<group>"; };
+		596FA9676AB44AE685D58649 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+REFrostedViewController.m"; path = "REFrostedViewController/UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		5A5CB29ECEED4BB08FEB1743 /* NSManagedObject+MagicalFinders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalFinders.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.h"; sourceTree = "<group>"; };
+		5AE3C51840BD49E596672D01 /* qrsequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = qrsequence.h; path = TesseractOCR/include/tesseract/qrsequence.h; sourceTree = "<group>"; };
+		5D82C213C6CF4ED99D132697 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		5E50F0AE48FD4FA4B52B85FF /* NSNumber+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.m"; sourceTree = "<group>"; };
+		5E6421D307654647BF851A11 /* NSManagedObjectContext+MagicalThreading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalThreading.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.h"; sourceTree = "<group>"; };
+		627F34860B294A53980E95B7 /* NSManagedObjectContext+MagicalObserving.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalObserving.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.h"; sourceTree = "<group>"; };
+		629EBA6866394F3B82FE316B /* clst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = clst.h; path = TesseractOCR/include/tesseract/clst.h; sourceTree = "<group>"; };
+		66E1C1A3A5514801B5718658 /* libPods-MagicalRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicalRecord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6794A987B9744F83BDCE9739 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = TesseractOCR/include/leptonica/stack.h; sourceTree = "<group>"; };
+		688F9F60B5464E5B9DDB077E /* output.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = output.h; path = TesseractOCR/include/tesseract/output.h; sourceTree = "<group>"; };
+		6915AFE79BF943E48F4255F0 /* NSManagedObject+MagicalAggregation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalAggregation.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalAggregation.m"; sourceTree = "<group>"; };
+		698C16DE532847148387F74E /* control.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = control.h; path = TesseractOCR/include/tesseract/control.h; sourceTree = "<group>"; };
+		6AB85779464042E684023B3D /* NSPersistentStore+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStore+MagicalRecord.h"; path = "MagicalRecord/Categories/NSPersistentStore+MagicalRecord.h"; sourceTree = "<group>"; };
+		6AC55B101016485990083EE3 /* tfacepp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tfacepp.h; path = TesseractOCR/include/tesseract/tfacepp.h; sourceTree = "<group>"; };
+		6C32A5F001F6493699222A7E /* ptra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ptra.h; path = TesseractOCR/include/leptonica/ptra.h; sourceTree = "<group>"; };
+		6CD65BBAB33C4ED4AA08AD61 /* notdll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = notdll.h; path = TesseractOCR/include/tesseract/notdll.h; sourceTree = "<group>"; };
+		6D5D569B60974161A1A78384 /* blobbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blobbox.h; path = TesseractOCR/include/tesseract/blobbox.h; sourceTree = "<group>"; };
+		6E253D9CC9C74FF7A9FAD604 /* quspline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quspline.h; path = TesseractOCR/include/tesseract/quspline.h; sourceTree = "<group>"; };
+		6FA2634A04E54A09A602BF66 /* split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = split.h; path = TesseractOCR/include/tesseract/split.h; sourceTree = "<group>"; };
+		700FF6A9AB7248239CAEAB40 /* NSEntityDescription+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSEntityDescription+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.m"; sourceTree = "<group>"; };
+		7386FF11430D444F9E72048B /* NSNumber+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSNumber+MagicalDataImport.h"; sourceTree = "<group>"; };
+		747CD88D9B4341D68A8C7AA4 /* MagicalRecord+ShorthandSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ShorthandSupport.m"; path = "MagicalRecord/Core/MagicalRecord+ShorthandSupport.m"; sourceTree = "<group>"; };
+		74E8247D335049BDA75E85AB /* NSManagedObject+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.h"; sourceTree = "<group>"; };
+		758435CBC5604D978105CCEC /* NSManagedObjectContext+MagicalThreading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalThreading.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalThreading.m"; sourceTree = "<group>"; };
+		75C6CD7CE31C43D691B1FCA0 /* leptwin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = leptwin.h; path = TesseractOCR/include/leptonica/leptwin.h; sourceTree = "<group>"; };
+		7FCBCE8201AD41109A8EC6A8 /* apitypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = apitypes.h; path = TesseractOCR/include/tesseract/apitypes.h; sourceTree = "<group>"; };
+		8029F5761EB44AF08E0AF5F0 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+REFrostedViewController.h"; path = "REFrostedViewController/UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
+		8133AE2FC78947B98CD84DC6 /* array.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = array.h; path = TesseractOCR/include/leptonica/array.h; sourceTree = "<group>"; };
+		8161EEC1973547C68C6F6826 /* pageiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pageiterator.h; path = TesseractOCR/include/tesseract/pageiterator.h; sourceTree = "<group>"; };
+		82D07725AB3149748BBCE5EC /* libPods-MBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MBProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		830392D8B06C41B39A63C2A7 /* equationdetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = equationdetect.h; path = TesseractOCR/include/tesseract/equationdetect.h; sourceTree = "<group>"; };
+		834480C50474445F89D952B6 /* Tesseract.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Tesseract.h; path = TesseractOCR/Tesseract.h; sourceTree = "<group>"; };
+		84EC2277527041589FCC90D9 /* arrayaccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = arrayaccess.h; path = TesseractOCR/include/leptonica/arrayaccess.h; sourceTree = "<group>"; };
+		84F9A4F76B89467C8C7FFF18 /* genericvector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genericvector.h; path = TesseractOCR/include/tesseract/genericvector.h; sourceTree = "<group>"; };
+		853485D1630B4A9AAD463667 /* imgscale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgscale.h; path = TesseractOCR/include/tesseract/imgscale.h; sourceTree = "<group>"; };
+		873C0C667C124AD584619682 /* MagicalRecord+Actions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+Actions.h"; path = "MagicalRecord/Core/MagicalRecord+Actions.h"; sourceTree = "<group>"; };
+		87441018529C48AEA0C49F96 /* RECommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = REFrostedViewController/RECommonFunctions.m; sourceTree = "<group>"; };
+		8767A5E4B25648EE931AD2EA /* matrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = matrix.h; path = TesseractOCR/include/tesseract/matrix.h; sourceTree = "<group>"; };
+		87C47B4BB1184C51AF4D8C6F /* normalis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = normalis.h; path = TesseractOCR/include/tesseract/normalis.h; sourceTree = "<group>"; };
+		8846FEE9AF984144AA575C0E /* unicharmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicharmap.h; path = TesseractOCR/include/tesseract/unicharmap.h; sourceTree = "<group>"; };
+		898C2866C72A4FECB4102679 /* REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFrostedViewController.h; path = REFrostedViewController/REFrostedViewController.h; sourceTree = "<group>"; };
+		8B0C52AA91B144258B8B0D8B /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		8C8F07A987164F5EBF607513 /* fontinfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fontinfo.h; path = TesseractOCR/include/tesseract/fontinfo.h; sourceTree = "<group>"; };
+		8CC37A8C20CD4D37B8164186 /* NSPersistentStoreCoordinator+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPersistentStoreCoordinator+MagicalRecord.h"; path = "MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.h"; sourceTree = "<group>"; };
+		8DA7B14DA37544DEB0250C19 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8E00E70FD8BD40E198A0B35C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E39C924AACE4E69804E5DE8 /* NSPersistentStoreCoordinator+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStoreCoordinator+MagicalRecord.m"; path = "MagicalRecord/Categories/NSPersistentStoreCoordinator+MagicalRecord.m"; sourceTree = "<group>"; };
+		8E4AD1439BEF4D1491599AFD /* scanutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanutils.h; path = TesseractOCR/include/tesseract/scanutils.h; sourceTree = "<group>"; };
+		8F5C401FCECD42268176C7A5 /* elst2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = elst2.h; path = TesseractOCR/include/tesseract/elst2.h; sourceTree = "<group>"; };
+		907A30F343D2411DBB394336 /* globaloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = globaloc.h; path = TesseractOCR/include/tesseract/globaloc.h; sourceTree = "<group>"; };
+		926E3BB7F30A4D31902C2389 /* quadlsq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quadlsq.h; path = TesseractOCR/include/tesseract/quadlsq.h; sourceTree = "<group>"; };
+		93AF16DC3EC34A34947EDBD3 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93F594DE21864B779412A856 /* fixspace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fixspace.h; path = TesseractOCR/include/tesseract/fixspace.h; sourceTree = "<group>"; };
+		95F88D86E47F48F09058A7F5 /* NSManagedObjectModel+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectModel+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.h"; sourceTree = "<group>"; };
+		96C5EFEB10A84F308E704103 /* hashfn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hashfn.h; path = TesseractOCR/include/tesseract/hashfn.h; sourceTree = "<group>"; };
+		98B4F831141145BBBC68F15C /* otsuthr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = otsuthr.h; path = TesseractOCR/include/tesseract/otsuthr.h; sourceTree = "<group>"; };
+		9A7F0B48D0534F4FB63AE2FC /* paragraphs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = paragraphs.h; path = TesseractOCR/include/tesseract/paragraphs.h; sourceTree = "<group>"; };
+		9BC20B9A3EAD4315BB10EFFC /* publictypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = publictypes.h; path = TesseractOCR/include/tesseract/publictypes.h; sourceTree = "<group>"; };
+		9C084EAD12BA4213BCB482B6 /* coutln.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = coutln.h; path = TesseractOCR/include/tesseract/coutln.h; sourceTree = "<group>"; };
+		9C76845EB55043CB8D3A2A3C /* secname.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secname.h; path = TesseractOCR/include/tesseract/secname.h; sourceTree = "<group>"; };
+		9C9F33F8B3E34D77851F2212 /* NSManagedObject+MagicalRequests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+MagicalRequests.h"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.h"; sourceTree = "<group>"; };
+		9CBDAA2626854836BABC89F1 /* alltypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alltypes.h; path = TesseractOCR/include/leptonica/alltypes.h; sourceTree = "<group>"; };
+		9D01F191E1AE429C9FD9B3EC /* MagicalRecord+ErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MagicalRecord+ErrorHandling.h"; path = "MagicalRecord/Core/MagicalRecord+ErrorHandling.h"; sourceTree = "<group>"; };
+		9D116D68AE4D487688D86432 /* MagicalRecord+Setup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Setup.m"; path = "MagicalRecord/Core/MagicalRecord+Setup.m"; sourceTree = "<group>"; };
+		9D29325B25DC4250B4C9C954 /* MagicalRecord+ErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+ErrorHandling.m"; path = "MagicalRecord/Core/MagicalRecord+ErrorHandling.m"; sourceTree = "<group>"; };
+		9F75FD78E04B42B6818E9201 /* unicodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicodes.h; path = TesseractOCR/include/tesseract/unicodes.h; sourceTree = "<group>"; };
+		9FA60BE1025B4992887181C0 /* unicity_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicity_table.h; path = TesseractOCR/include/tesseract/unicity_table.h; sourceTree = "<group>"; };
+		A01B455AB51A4906B25DE1A9 /* cube_reco_context.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cube_reco_context.h; path = TesseractOCR/include/tesseract/cube_reco_context.h; sourceTree = "<group>"; };
+		A07E9102933742D781C19E90 /* NSString+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSString+MagicalDataImport.m"; sourceTree = "<group>"; };
+		A20CA2BBAE644F84B6F4041D /* ipoints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ipoints.h; path = TesseractOCR/include/tesseract/ipoints.h; sourceTree = "<group>"; };
+		A814B338AE1544CEB7E4F3EA /* Pods-MagicalRecord.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagicalRecord.xcconfig"; sourceTree = "<group>"; };
+		A8405AD2038F4BCAAA06BD0C /* genblob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = genblob.h; path = TesseractOCR/include/tesseract/genblob.h; sourceTree = "<group>"; };
+		A88C59E6BEF5432987B62318 /* boxword.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = boxword.h; path = TesseractOCR/include/tesseract/boxword.h; sourceTree = "<group>"; };
+		AA33CD4EBC68472B878F0078 /* serialis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = serialis.h; path = TesseractOCR/include/tesseract/serialis.h; sourceTree = "<group>"; };
+		ABDF1175BA2E4C088349A6E8 /* tessdatamanager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessdatamanager.h; path = TesseractOCR/include/tesseract/tessdatamanager.h; sourceTree = "<group>"; };
+		ACA287FD13B64DF2A666C0F1 /* tfacep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tfacep.h; path = TesseractOCR/include/tesseract/tfacep.h; sourceTree = "<group>"; };
+		AD343245FCF549C697241D7F /* dppoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dppoint.h; path = TesseractOCR/include/tesseract/dppoint.h; sourceTree = "<group>"; };
+		AE997EFC02E6493EAE0FC484 /* NSManagedObject+MagicalFinders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalFinders.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalFinders.m"; sourceTree = "<group>"; };
+		AE9A0AC03D8846E190322571 /* hpddef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hpddef.h; path = TesseractOCR/include/tesseract/hpddef.h; sourceTree = "<group>"; };
+		AED500110CDA4B64816CB355 /* pdblock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pdblock.h; path = TesseractOCR/include/tesseract/pdblock.h; sourceTree = "<group>"; };
+		AF49ED03C95D41399DD49185 /* ccbord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccbord.h; path = TesseractOCR/include/leptonica/ccbord.h; sourceTree = "<group>"; };
+		B09835684F9B40F7817C10DD /* RECommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = REFrostedViewController/RECommonFunctions.h; sourceTree = "<group>"; };
+		B18439813FE6423BA4F416EC /* params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = params.h; path = TesseractOCR/include/tesseract/params.h; sourceTree = "<group>"; };
+		B2AA925C0093421185B85FB7 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFrostedContainerViewController.m; path = REFrostedViewController/REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		B362F28D462C4C0F87F2D2AA /* scaleimg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scaleimg.h; path = TesseractOCR/include/tesseract/scaleimg.h; sourceTree = "<group>"; };
+		B3C74C599F2B4F548740E477 /* mutableiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutableiterator.h; path = TesseractOCR/include/tesseract/mutableiterator.h; sourceTree = "<group>"; };
+		B4CFCE5B4CB24E9F9F8B9599 /* lsterr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lsterr.h; path = TesseractOCR/include/tesseract/lsterr.h; sourceTree = "<group>"; };
+		B4DA2D0AA06B481EAFCB78B1 /* NSManagedObjectModel+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectModel+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObjectModel+MagicalRecord.m"; sourceTree = "<group>"; };
+		B796222D6DB3486B92B96E7F /* regutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = regutils.h; path = TesseractOCR/include/leptonica/regutils.h; sourceTree = "<group>"; };
+		BBC26BF91DA5412DB3485A86 /* endianness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = endianness.h; path = TesseractOCR/include/leptonica/endianness.h; sourceTree = "<group>"; };
+		BC1C3EA7829E495494D44185 /* Pods-MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		BC7B13576A1C471F81DE8474 /* reject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = reject.h; path = TesseractOCR/include/tesseract/reject.h; sourceTree = "<group>"; };
+		BDB7F3C7023D49169AABD80B /* tessvars.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessvars.h; path = TesseractOCR/include/tesseract/tessvars.h; sourceTree = "<group>"; };
+		BE1190F30D704A19AD964C89 /* tessbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessbox.h; path = TesseractOCR/include/tesseract/tessbox.h; sourceTree = "<group>"; };
+		BF24B7CC0B644CCCA218AACB /* mod128.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mod128.h; path = TesseractOCR/include/tesseract/mod128.h; sourceTree = "<group>"; };
+		C06C2224BA7B416091B544E5 /* MagicalRecord+iCloud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+iCloud.m"; path = "MagicalRecord/Core/MagicalRecord+iCloud.m"; sourceTree = "<group>"; };
+		C072DE236B0D47C7AA72EBA6 /* rejctmap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rejctmap.h; path = TesseractOCR/include/tesseract/rejctmap.h; sourceTree = "<group>"; };
+		C221BBCB18EA43AA86C17A41 /* stderr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stderr.h; path = TesseractOCR/include/tesseract/stderr.h; sourceTree = "<group>"; };
+		C28CCB8F6B1B46999BD6E474 /* NSManagedObject+MagicalRequests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRequests.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRequests.m"; sourceTree = "<group>"; };
+		C2DF306031FF468284534352 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C2E80531D5C447869BF28990 /* elst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = elst.h; path = TesseractOCR/include/tesseract/elst.h; sourceTree = "<group>"; };
+		C4C05C1ECB9F45AABDE1C340 /* thresholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = thresholder.h; path = TesseractOCR/include/tesseract/thresholder.h; sourceTree = "<group>"; };
+		C73A1DB548194B0D91192638 /* environ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = environ.h; path = TesseractOCR/include/leptonica/environ.h; sourceTree = "<group>"; };
+		C77A447AE17542C28AA113C4 /* morph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = morph.h; path = TesseractOCR/include/leptonica/morph.h; sourceTree = "<group>"; };
+		C88C90BCA8A14A02ADD1674C /* NSManagedObject+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+MagicalRecord.m"; path = "MagicalRecord/Categories/NSManagedObject/NSManagedObject+MagicalRecord.m"; sourceTree = "<group>"; };
+		CA6002495C934572AC25CC6B /* ccutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccutil.h; path = TesseractOCR/include/tesseract/ccutil.h; sourceTree = "<group>"; };
+		CC0E3991FF8F4DC28BF08B1D /* strngs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strngs.h; path = TesseractOCR/include/tesseract/strngs.h; sourceTree = "<group>"; };
+		CCA8BBCE4C7C4F1A9F37595B /* Pods-MagicalRecord-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagicalRecord-prefix.pch"; sourceTree = "<group>"; };
+		CE43B5D9BA40432AB975393B /* watershed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = watershed.h; path = TesseractOCR/include/leptonica/watershed.h; sourceTree = "<group>"; };
+		CEAD96DA17F24DA897334822 /* tprintf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tprintf.h; path = TesseractOCR/include/tesseract/tprintf.h; sourceTree = "<group>"; };
+		CF1FB74C100546199049F548 /* polyaprx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = polyaprx.h; path = TesseractOCR/include/tesseract/polyaprx.h; sourceTree = "<group>"; };
+		D1D9A11F7C984AD4B2F70CE9 /* MagicalImportFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MagicalImportFunctions.m; path = MagicalRecord/Categories/DataImport/MagicalImportFunctions.m; sourceTree = "<group>"; };
+		D2219CE72A0146FE9226412E /* MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecord.h; path = MagicalRecord/Core/MagicalRecord.h; sourceTree = "<group>"; };
+		D27FF6B2EBF54AEB993A1C82 /* Pods-MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		D37C20C0610947DC80529AE2 /* quadratc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = quadratc.h; path = TesseractOCR/include/tesseract/quadratc.h; sourceTree = "<group>"; };
+		D3D50EDAD1A54A8BBBB01DB4 /* pageres.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pageres.h; path = TesseractOCR/include/tesseract/pageres.h; sourceTree = "<group>"; };
+		D4777F0C2C274E8AB061C5C5 /* ocrrow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrrow.h; path = TesseractOCR/include/tesseract/ocrrow.h; sourceTree = "<group>"; };
+		D511962C4A1D4E2EAFF6F8F9 /* libPods-REFrostedViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-REFrostedViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6527E10430848C9A33961EE /* Pods-MagicalRecord-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagicalRecord-Private.xcconfig"; sourceTree = "<group>"; };
+		D6776AFE2326440B81EE9A56 /* bmf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bmf.h; path = TesseractOCR/include/leptonica/bmf.h; sourceTree = "<group>"; };
+		D8A9D3764164493BBF031B04 /* Pods-OpenCV-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenCV-Private.xcconfig"; sourceTree = "<group>"; };
+		D91591B6E4FC4166AB7D995C /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAD099A26FB745F3AF812F0E /* points.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = points.h; path = TesseractOCR/include/tesseract/points.h; sourceTree = "<group>"; };
+		DD7BCDCECDC5431CA21B9BE9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA39E55F4AC4D5AA7AC1992 /* Pods-TesseractOCRiOS-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TesseractOCRiOS-Private.xcconfig"; sourceTree = "<group>"; };
+		DEB037300B1D480E87C9756C /* ocrblock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrblock.h; path = TesseractOCR/include/tesseract/ocrblock.h; sourceTree = "<group>"; };
+		DEC7CC2A59664D64BC28775F /* tessedit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tessedit.h; path = TesseractOCR/include/tesseract/tessedit.h; sourceTree = "<group>"; };
+		E03641DA9A954717B552FA51 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+REFrostedViewController.m"; path = "REFrostedViewController/UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		E1C309A66C0E4865B63503B6 /* NSManagedObjectContext+MagicalObserving.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalObserving.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalObserving.m"; sourceTree = "<group>"; };
+		E36EE8CA54574EC6BC9F7CBB /* NSManagedObjectContext+MagicalRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSManagedObjectContext+MagicalRecord.h"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalRecord.h"; sourceTree = "<group>"; };
+		E454B60B93B34BC2928AE3CB /* MagicalRecord+Options.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MagicalRecord+Options.m"; path = "MagicalRecord/Core/MagicalRecord+Options.m"; sourceTree = "<group>"; };
+		E4599781F0C74CFA8727EFC1 /* polyblk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = polyblk.h; path = TesseractOCR/include/tesseract/polyblk.h; sourceTree = "<group>"; };
+		E56BE314268E4093BB54F27F /* Pods-REFrostedViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-REFrostedViewController-prefix.pch"; sourceTree = "<group>"; };
+		E873AF98F4134DFBA64D8CA3 /* Pods-MBProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MBProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		E88FC8F31A6244D1B939F1C7 /* sorthelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sorthelper.h; path = TesseractOCR/include/tesseract/sorthelper.h; sourceTree = "<group>"; };
+		E961E802FBF1401BA7301214 /* pgedit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pgedit.h; path = TesseractOCR/include/tesseract/pgedit.h; sourceTree = "<group>"; };
+		E980EF2D33D34AC4870C8757 /* rect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rect.h; path = TesseractOCR/include/tesseract/rect.h; sourceTree = "<group>"; };
+		EA0066B428E643949EB64D70 /* stepblob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stepblob.h; path = TesseractOCR/include/tesseract/stepblob.h; sourceTree = "<group>"; };
+		EC3852FFBADB4107AC98C65B /* blckerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blckerr.h; path = TesseractOCR/include/tesseract/blckerr.h; sourceTree = "<group>"; };
+		EE04F6A47B684D2F9FDB40D0 /* bbuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bbuffer.h; path = TesseractOCR/include/leptonica/bbuffer.h; sourceTree = "<group>"; };
+		EEE94033877A4F07B1E48F16 /* Pods-REFrostedViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REFrostedViewController.xcconfig"; sourceTree = "<group>"; };
+		F09244E966474178846A2234 /* NSPersistentStore+MagicalRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPersistentStore+MagicalRecord.m"; path = "MagicalRecord/Categories/NSPersistentStore+MagicalRecord.m"; sourceTree = "<group>"; };
+		F20429146E3C4AF28CDC6932 /* jbclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jbclass.h; path = TesseractOCR/include/leptonica/jbclass.h; sourceTree = "<group>"; };
+		F43C9FCEAB9F45DEAA92C0FB /* ccstruct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ccstruct.h; path = TesseractOCR/include/tesseract/ccstruct.h; sourceTree = "<group>"; };
+		F6D8D0B435134E9DA8864D17 /* werd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = werd.h; path = TesseractOCR/include/tesseract/werd.h; sourceTree = "<group>"; };
+		F7799CFC980340F0B827481F /* ocrpara.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocrpara.h; path = TesseractOCR/include/tesseract/ocrpara.h; sourceTree = "<group>"; };
+		F8121B64AF68471FA2F2030E /* allheaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = allheaders.h; path = TesseractOCR/include/leptonica/allheaders.h; sourceTree = "<group>"; };
+		F9FA5E20851347E5A0EE93F9 /* NSObject+MagicalDataImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MagicalDataImport.m"; path = "MagicalRecord/Categories/DataImport/NSObject+MagicalDataImport.m"; sourceTree = "<group>"; };
+		FB37080D25ED46AB81CCE355 /* tesseractclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tesseractclass.h; path = TesseractOCR/include/tesseract/tesseractclass.h; sourceTree = "<group>"; };
+		FB3D36B5583840DE8FF64FEB /* resultiterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resultiterator.h; path = TesseractOCR/include/tesseract/resultiterator.h; sourceTree = "<group>"; };
+		FCC8DEC8CEF041D3BD6F3ED3 /* NSManagedObjectContext+MagicalSaves.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObjectContext+MagicalSaves.m"; path = "MagicalRecord/Categories/NSManagedObjectContext/NSManagedObjectContext+MagicalSaves.m"; sourceTree = "<group>"; };
+		FDEDA335D2DF40489A5388B2 /* MagicalRecordShorthand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MagicalRecordShorthand.h; path = MagicalRecord/Core/MagicalRecordShorthand.h; sourceTree = "<group>"; };
+		FEBBC39219AE40DDB47D27E9 /* fileerr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileerr.h; path = TesseractOCR/include/tesseract/fileerr.h; sourceTree = "<group>"; };
+		FF4038DEF17840BD8D5730FF /* helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = helpers.h; path = TesseractOCR/include/tesseract/helpers.h; sourceTree = "<group>"; };
+		FF952385708D4C598D9135C7 /* NSEntityDescription+MagicalDataImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSEntityDescription+MagicalDataImport.h"; path = "MagicalRecord/Categories/DataImport/NSEntityDescription+MagicalDataImport.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E1CC9D3294E48AEB28ACA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C8F0CB12BB433EA333F05E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DECBD6FBA9648FFB0AB8CE7 /* libPods-MBProgressHUD.a in Frameworks */,
+				3AEA1513668F4D8689242B40 /* libPods-MagicalRecord.a in Frameworks */,
+				AB2F7572960A4A979C384AAA /* libPods-OpenCV.a in Frameworks */,
+				5F97CD28C4A247BEBFA24C1B /* libPods-REFrostedViewController.a in Frameworks */,
+				B704F9942BF14B96BB534C69 /* libPods-TesseractOCRiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A9CF61440E4E9BB92545FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9492FE57915C49049F67F1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A839E8AB4466427BB98C5B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF18BCCDDE6140F6A0CA2433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003E8C96502141DDA58FBAAE /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				A5FD3529A4A444389A14F538 /* Frameworks */,
+				818F5889C931444793C3B106 /* Support Files */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		0F2A7241EF0F48A6851960EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEE94033877A4F07B1E48F16 /* Pods-REFrostedViewController.xcconfig */,
+				408F46447AFC4A18B4DC0857 /* Pods-REFrostedViewController-Private.xcconfig */,
+				2F95E09B15EC4C74AB038C37 /* Pods-REFrostedViewController-dummy.m */,
+				E56BE314268E4093BB54F27F /* Pods-REFrostedViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		43F08DC732B245949F983494 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFB329AA0C7A45728904F2E2 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44146706A1574A17A312A955 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5015322941C4E8D80AF5D6D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5118E658FDAC4F6D9033D152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0959304CD5C34EC5BD07B2ED /* TesseractOCR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56372F093084495BB532ECCF /* REFrostedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B09835684F9B40F7817C10DD /* RECommonFunctions.h */,
+				87441018529C48AEA0C49F96 /* RECommonFunctions.m */,
+				0267AD5E7EED4CB1834A5D2D /* REFrostedContainerViewController.h */,
+				B2AA925C0093421185B85FB7 /* REFrostedContainerViewController.m */,
+				898C2866C72A4FECB4102679 /* REFrostedViewController.h */,
+				475CAB415F454A06B784F0C3 /* REFrostedViewController.m */,
+				8029F5761EB44AF08E0AF5F0 /* UIImage+REFrostedViewController.h */,
+				5197AA44CB7446148E500012 /* UIImage+REFrostedViewController.m */,
+				01C312D4583042B9A8ECA754 /* UIView+REFrostedViewController.h */,
+				E03641DA9A954717B552FA51 /* UIView+REFrostedViewController.m */,
+				35241A78213E48068AAA6B3C /* UIViewController+REFrostedViewController.h */,
+				596FA9676AB44AE685D58649 /* UIViewController+REFrostedViewController.m */,
+				0F2A7241EF0F48A6851960EB /* Support Files */,
+			);
+			path = REFrostedViewController;
+			sourceTree = "<group>";
+		};
+		818F5889C931444793C3B106 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				002D269E2D5948078CA61BAC /* Pods-OpenCV.xcconfig */,
+				D8A9D3764164493BBF031B04 /* Pods-OpenCV-Private.xcconfig */,
+				22EB48B841C4481483F0307E /* Pods-OpenCV-dummy.m */,
+				2E1BB73027C1465E8C860CAE /* Pods-OpenCV-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		8DB377CF74044828A62BA91F /* TesseractOCRiOS */ = {
+			isa = PBXGroup;
+			children = (
+				834480C50474445F89D952B6 /* Tesseract.h */,
+				1CC2E05FD5DB434C8281BE26 /* TesseractOCR.h */,
+				F8121B64AF68471FA2F2030E /* allheaders.h */,
+				9CBDAA2626854836BABC89F1 /* alltypes.h */,
+				36F0C9485B8A462880781F20 /* ambigs.h */,
+				7FCBCE8201AD41109A8EC6A8 /* apitypes.h */,
+				8133AE2FC78947B98CD84DC6 /* array.h */,
+				84EC2277527041589FCC90D9 /* arrayaccess.h */,
+				0FE8075C2AEB4977A9E05F0F /* baseapi.h */,
+				051EBC47E7D9461F89DBE1B6 /* basedir.h */,
+				EE04F6A47B684D2F9FDB40D0 /* bbuffer.h */,
+				35E0ACFA73F74047AEF17090 /* bits16.h */,
+				5110D2C9302E4FFEB7FBAE8E /* bitvector.h */,
+				EC3852FFBADB4107AC98C65B /* blckerr.h */,
+				6D5D569B60974161A1A78384 /* blobbox.h */,
+				55AE9A3469A6431D852DB34A /* blobs.h */,
+				3D328DF7DF884C828988DBFC /* blread.h */,
+				D6776AFE2326440B81EE9A56 /* bmf.h */,
+				2F6B71C32828419488B7E44D /* bmp.h */,
+				56F1FAD75AA943D294A4C1F3 /* boxread.h */,
+				A88C59E6BEF5432987B62318 /* boxword.h */,
+				3C4FE25E9A3940438F4512CB /* capi.h */,
+				AF49ED03C95D41399DD49185 /* ccbord.h */,
+				F43C9FCEAB9F45DEAA92C0FB /* ccstruct.h */,
+				CA6002495C934572AC25CC6B /* ccutil.h */,
+				629EBA6866394F3B82FE316B /* clst.h */,
+				698C16DE532847148387F74E /* control.h */,
+				9C084EAD12BA4213BCB482B6 /* coutln.h */,
+				4570B1CBCE7148D084E95589 /* crakedge.h */,
+				A01B455AB51A4906B25DE1A9 /* cube_reco_context.h */,
+				58543879ECF546CA80B5FF00 /* cubeclassifier.h */,
+				4AA2A1587C4147F8A577485F /* detlinefit.h */,
+				32A9FB472D8D4E45A0E7BABF /* dewarp.h */,
+				2AB982D2016D409286D5E282 /* docqual.h */,
+				AD343245FCF549C697241D7F /* dppoint.h */,
+				C2E80531D5C447869BF28990 /* elst.h */,
+				8F5C401FCECD42268176C7A5 /* elst2.h */,
+				BBC26BF91DA5412DB3485A86 /* endianness.h */,
+				C73A1DB548194B0D91192638 /* environ.h */,
+				830392D8B06C41B39A63C2A7 /* equationdetect.h */,
+				41535AC40ED448ACB8F65867 /* errcode.h */,
+				FEBBC39219AE40DDB47D27E9 /* fileerr.h */,
+				93F594DE21864B779412A856 /* fixspace.h */,
+				8C8F07A987164F5EBF607513 /* fontinfo.h */,
+				27ACE83C7CC44AE386F22A0D /* freetype.h */,
+				A8405AD2038F4BCAAA06BD0C /* genblob.h */,
+				84F9A4F76B89467C8C7FFF18 /* genericvector.h */,
+				907A30F343D2411DBB394336 /* globaloc.h */,
+				27C2240C7F38449395E11349 /* gplot.h */,
+				96C5EFEB10A84F308E704103 /* hashfn.h */,
+				07B08A420C344289A5ACE960 /* heap.h */,
+				FF4038DEF17840BD8D5730FF /* helpers.h */,
+				0EBE729717EC4D3495D992A4 /* host.h */,
+				15A42D8139C94E84821CFE2C /* hosthplb.h */,
+				AE9A0AC03D8846E190322571 /* hpddef.h */,
+				25E71F24B87B44FAAAEC676B /* hpdsizes.h */,
+				0AF6B3A6CBFF4E738D05CACC /* imageio.h */,
+				853485D1630B4A9AAD463667 /* imgscale.h */,
+				4D332C47A2AB4D6690C487CD /* indexmapbidi.h */,
+				A20CA2BBAE644F84B6F4041D /* ipoints.h */,
+				F20429146E3C4AF28CDC6932 /* jbclass.h */,
+				75C6CD7CE31C43D691B1FCA0 /* leptwin.h */,
+				1088265B8DCB4B7D905052BF /* linlsq.h */,
+				5341CD925A7C4973861C2A14 /* list.h */,
+				B4CFCE5B4CB24E9F9F8B9599 /* lsterr.h */,
+				4BC4BB528ABD464985060097 /* ltrresultiterator.h */,
+				8767A5E4B25648EE931AD2EA /* matrix.h */,
+				28EE3EC310B747D4826DAF9E /* memry.h */,
+				2C9795EB104A4A2B8249262A /* mfcpch.h */,
+				BF24B7CC0B644CCCA218AACB /* mod128.h */,
+				C77A447AE17542C28AA113C4 /* morph.h */,
+				B3C74C599F2B4F548740E477 /* mutableiterator.h */,
+				0A3DFAC3263E47B1821E9B45 /* ndminx.h */,
+				87C47B4BB1184C51AF4D8C6F /* normalis.h */,
+				6CD65BBAB33C4ED4AA08AD61 /* notdll.h */,
+				2EC8EC719D884C2388F2FBB9 /* nwmain.h */,
+				DEB037300B1D480E87C9756C /* ocrblock.h */,
+				592DF1B563784E51A6964AB0 /* ocrclass.h */,
+				F7799CFC980340F0B827481F /* ocrpara.h */,
+				D4777F0C2C274E8AB061C5C5 /* ocrrow.h */,
+				527495D56B04475BB5E0346F /* osdetect.h */,
+				98B4F831141145BBBC68F15C /* otsuthr.h */,
+				688F9F60B5464E5B9DDB077E /* output.h */,
+				8161EEC1973547C68C6F6826 /* pageiterator.h */,
+				D3D50EDAD1A54A8BBBB01DB4 /* pageres.h */,
+				9A7F0B48D0534F4FB63AE2FC /* paragraphs.h */,
+				1F1DA1FDBE034294BDFE960D /* paragraphs_internal.h */,
+				B18439813FE6423BA4F416EC /* params.h */,
+				5581513B90A94012839E8A66 /* params_training_featdef.h */,
+				32345FA07C604CC2B1CF5158 /* paramsd.h */,
+				AED500110CDA4B64816CB355 /* pdblock.h */,
+				E961E802FBF1401BA7301214 /* pgedit.h */,
+				31D298C153EB4826AFCB1C88 /* pix.h */,
+				31AD5066EEA0421EAB53AACC /* platform.h */,
+				DAD099A26FB745F3AF812F0E /* points.h */,
+				CF1FB74C100546199049F548 /* polyaprx.h */,
+				E4599781F0C74CFA8727EFC1 /* polyblk.h */,
+				6C32A5F001F6493699222A7E /* ptra.h */,
+				9BC20B9A3EAD4315BB10EFFC /* publictypes.h */,
+				5AE3C51840BD49E596672D01 /* qrsequence.h */,
+				926E3BB7F30A4D31902C2389 /* quadlsq.h */,
+				D37C20C0610947DC80529AE2 /* quadratc.h */,
+				22FA63F68A0143F29577BAE3 /* queue.h */,
+				6E253D9CC9C74FF7A9FAD604 /* quspline.h */,
+				4BFEEE73820B4DEBB81B5363 /* ratngs.h */,
+				2FBAB9AA226C4030A08B43FE /* readbarcode.h */,
+				E980EF2D33D34AC4870C8757 /* rect.h */,
+				B796222D6DB3486B92B96E7F /* regutils.h */,
+				C072DE236B0D47C7AA72EBA6 /* rejctmap.h */,
+				BC7B13576A1C471F81DE8474 /* reject.h */,
+				FB3D36B5583840DE8FF64FEB /* resultiterator.h */,
+				B362F28D462C4C0F87F2D2AA /* scaleimg.h */,
+				8E4AD1439BEF4D1491599AFD /* scanutils.h */,
+				29F4A2123CE44A7086267485 /* seam.h */,
+				9C76845EB55043CB8D3A2A3C /* secname.h */,
+				AA33CD4EBC68472B878F0078 /* serialis.h */,
+				E88FC8F31A6244D1B939F1C7 /* sorthelper.h */,
+				6FA2634A04E54A09A602BF66 /* split.h */,
+				6794A987B9744F83BDCE9739 /* stack.h */,
+				4FB5F37F9AE74BA8AF7FF212 /* statistc.h */,
+				C221BBCB18EA43AA86C17A41 /* stderr.h */,
+				EA0066B428E643949EB64D70 /* stepblob.h */,
+				CC0E3991FF8F4DC28BF08B1D /* strngs.h */,
+				552C8444C6CA4DD883C92FE9 /* sudoku.h */,
+				BE1190F30D704A19AD964C89 /* tessbox.h */,
+				2758B48CB8444FEC952DB874 /* tesscallback.h */,
+				ABDF1175BA2E4C088349A6E8 /* tessdatamanager.h */,
+				DEC7CC2A59664D64BC28775F /* tessedit.h */,
+				05AB76FF9E4F4D59B773A78D /* tesseract_cube_combiner.h */,
+				FB37080D25ED46AB81CCE355 /* tesseractclass.h */,
+				26F935A264AE4AB1830B3017 /* tesseractmain.h */,
+				BDB7F3C7023D49169AABD80B /* tessvars.h */,
+				ACA287FD13B64DF2A666C0F1 /* tfacep.h */,
+				6AC55B101016485990083EE3 /* tfacepp.h */,
+				C4C05C1ECB9F45AABDE1C340 /* thresholder.h */,
+				CEAD96DA17F24DA897334822 /* tprintf.h */,
+				492987DA772745479DD63BEE /* unichar.h */,
+				8846FEE9AF984144AA575C0E /* unicharmap.h */,
+				4D5881FD12AD4B9E998A5D88 /* unicharset.h */,
+				9FA60BE1025B4992887181C0 /* unicity_table.h */,
+				9F75FD78E04B42B6818E9201 /* unicodes.h */,
+				286A8B9DB8374FA3A8B0EACF /* vecfuncs.h */,
+				CE43B5D9BA40432AB975393B /* watershed.h */,
+				F6D8D0B435134E9DA8864D17 /* werd.h */,
+				083969EA92AF4F6EB0A33FE3 /* werdit.h */,
+				5118E658FDAC4F6D9033D152 /* Frameworks */,
+				D81751FB5DCC426EA3A95A6C /* Support Files */,
+			);
+			path = TesseractOCRiOS;
+			sourceTree = "<group>";
+		};
+		8F7227E9CBE8486884BCBE47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5B4E09C6BDB419CADF51221 /* MBProgressHUD */,
+				D66A82307310499F8A3B712E /* MagicalRecord */,
+				003E8C96502141DDA58FBAAE /* OpenCV */,
+				56372F093084495BB532ECCF /* REFrostedViewController */,
+				8DB377CF74044828A62BA91F /* TesseractOCRiOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5FD3529A4A444389A14F538 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C9849F3AC184007972C0775 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B597B4D5A04E4FEDAE6235B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46190C45A04E423DAF04A8FB /* Pods-MBProgressHUD.xcconfig */,
+				E873AF98F4134DFBA64D8CA3 /* Pods-MBProgressHUD-Private.xcconfig */,
+				D27FF6B2EBF54AEB993A1C82 /* Pods-MBProgressHUD-dummy.m */,
+				BC1C3EA7829E495494D44185 /* Pods-MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		B66936F8E97F44DAB6D1B3E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A814B338AE1544CEB7E4F3EA /* Pods-MagicalRecord.xcconfig */,
+				D6527E10430848C9A33961EE /* Pods-MagicalRecord-Private.xcconfig */,
+				2221530D1C89496DAFD743EB /* Pods-MagicalRecord-dummy.m */,
+				CCA8BBCE4C7C4F1A9F37595B /* Pods-MagicalRecord-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		CA1A99AEC79441C891569CAB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0D1BFF50B0C24895BE6470C3 /* CoreData+MagicalRecord.h */,
+				39BECE98FAFA4B2AAF4E6AA7 /* MagicalImportFunctions.h */,
+				D1D9A11F7C984AD4B2F70CE9 /* MagicalImportFunctions.m */,
+				D2219CE72A0146FE9226412E /* MagicalRecord.h */,
+				55912C9CB39C458A810B988B /* MagicalRecord.m */,
+				873C0C667C124AD584619682 /* MagicalRecord+Actions.h */,
+				0C1C43D75329452FAEB2C7D0 /* MagicalRecord+Actions.m */,
+				9D01F191E1AE429C9FD9B3EC /* MagicalRecord+ErrorHandling.h */,
+				9D29325B25DC4250B4C9C954 /* MagicalRecord+ErrorHandling.m */,
+				2C932980F9944D96BC9A4E27 /* MagicalRecord+Options.h */,
+				E454B60B93B34BC2928AE3CB /* MagicalRecord+Options.m */,
+				1385AA42BF524D30AB70657D /* MagicalRecord+Setup.h */,
+				9D116D68AE4D487688D86432 /* MagicalRecord+Setup.m */,
+				201B4A0FC8884623AE37C2B4 /* MagicalRecord+ShorthandSupport.h */,
+				747CD88D9B4341D68A8C7AA4 /* MagicalRecord+ShorthandSupport.m */,
+				52B314E2877A4B5DA1B89E92 /* MagicalRecord+iCloud.h */,
+				C06C2224BA7B416091B544E5 /* MagicalRecord+iCloud.m */,
+				FDEDA335D2DF40489A5388B2 /* MagicalRecordShorthand.h */,
+				0B4C29EADCC04E068E85F08C /* NSAttributeDescription+MagicalDataImport.h */,
+				405CD6CB27D34721B5BEF3C3 /* NSAttributeDescription+MagicalDataImport.m */,
+				FF952385708D4C598D9135C7 /* NSEntityDescription+MagicalDataImport.h */,
+				700FF6A9AB7248239CAEAB40 /* NSEntityDescription+MagicalDataImport.m */,
+				09150F2B9E9B4E2BA3EFF568 /* NSManagedObject+MagicalAggregation.h */,
+				6915AFE79BF943E48F4255F0 /* NSManagedObject+MagicalAggregation.m */,
+				3CC07CB2B1804C338D123067 /* NSManagedObject+MagicalDataImport.h */,
+				1E2C791C3143428DB61C5888 /* NSManagedObject+MagicalDataImport.m */,
+				5A5CB29ECEED4BB08FEB1743 /* NSManagedObject+MagicalFinders.h */,
+				AE997EFC02E6493EAE0FC484 /* NSManagedObject+MagicalFinders.m */,
+				74E8247D335049BDA75E85AB /* NSManagedObject+MagicalRecord.h */,
+				C88C90BCA8A14A02ADD1674C /* NSManagedObject+MagicalRecord.m */,
+				9C9F33F8B3E34D77851F2212 /* NSManagedObject+MagicalRequests.h */,
+				C28CCB8F6B1B46999BD6E474 /* NSManagedObject+MagicalRequests.m */,
+				627F34860B294A53980E95B7 /* NSManagedObjectContext+MagicalObserving.h */,
+				E1C309A66C0E4865B63503B6 /* NSManagedObjectContext+MagicalObserving.m */,
+				E36EE8CA54574EC6BC9F7CBB /* NSManagedObjectContext+MagicalRecord.h */,
+				063373962EBA45AE93D26685 /* NSManagedObjectContext+MagicalRecord.m */,
+				1E7B9D95F2054DE3A2C155BA /* NSManagedObjectContext+MagicalSaves.h */,
+				FCC8DEC8CEF041D3BD6F3ED3 /* NSManagedObjectContext+MagicalSaves.m */,
+				5E6421D307654647BF851A11 /* NSManagedObjectContext+MagicalThreading.h */,
+				758435CBC5604D978105CCEC /* NSManagedObjectContext+MagicalThreading.m */,
+				95F88D86E47F48F09058A7F5 /* NSManagedObjectModel+MagicalRecord.h */,
+				B4DA2D0AA06B481EAFCB78B1 /* NSManagedObjectModel+MagicalRecord.m */,
+				7386FF11430D444F9E72048B /* NSNumber+MagicalDataImport.h */,
+				5E50F0AE48FD4FA4B52B85FF /* NSNumber+MagicalDataImport.m */,
+				21E9B0B7DB334582B8A69CAE /* NSObject+MagicalDataImport.h */,
+				F9FA5E20851347E5A0EE93F9 /* NSObject+MagicalDataImport.m */,
+				6AB85779464042E684023B3D /* NSPersistentStore+MagicalRecord.h */,
+				F09244E966474178846A2234 /* NSPersistentStore+MagicalRecord.m */,
+				8CC37A8C20CD4D37B8164186 /* NSPersistentStoreCoordinator+MagicalRecord.h */,
+				8E39C924AACE4E69804E5DE8 /* NSPersistentStoreCoordinator+MagicalRecord.m */,
+				46A31A71ACB54193B200FE8C /* NSRelationshipDescription+MagicalDataImport.h */,
+				27CA0545390245B5A61CDFF6 /* NSRelationshipDescription+MagicalDataImport.m */,
+				23B38D0106384F23B87854B9 /* NSString+MagicalDataImport.h */,
+				A07E9102933742D781C19E90 /* NSString+MagicalDataImport.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D5015322941C4E8D80AF5D6D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5B4E09C6BDB419CADF51221 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8DA7B14DA37544DEB0250C19 /* MBProgressHUD.h */,
+				C2DF306031FF468284534352 /* MBProgressHUD.m */,
+				B597B4D5A04E4FEDAE6235B9 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		D66A82307310499F8A3B712E /* MagicalRecord */ = {
+			isa = PBXGroup;
+			children = (
+				CA1A99AEC79441C891569CAB /* Core */,
+				B66936F8E97F44DAB6D1B3E4 /* Support Files */,
+			);
+			path = MagicalRecord;
+			sourceTree = "<group>";
+		};
+		D81751FB5DCC426EA3A95A6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EB9E696005B4DEF9ADB6295 /* Pods-TesseractOCRiOS.xcconfig */,
+				DEA39E55F4AC4D5AA7AC1992 /* Pods-TesseractOCRiOS-Private.xcconfig */,
+				177EA0DBDC6647968671158A /* Pods-TesseractOCRiOS-dummy.m */,
+				5400491C78E842A697613CE7 /* Pods-TesseractOCRiOS-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		ED274671BB6B46BB9C72EAFF = {
+			isa = PBXGroup;
+			children = (
+				8E00E70FD8BD40E198A0B35C /* Podfile */,
+				44146706A1574A17A312A955 /* Frameworks */,
+				8F7227E9CBE8486884BCBE47 /* Pods */,
+				F1AC343515374973AEEC44E0 /* Products */,
+				43F08DC732B245949F983494 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB329AA0C7A45728904F2E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D82C213C6CF4ED99D132697 /* Pods.xcconfig */,
+				93AF16DC3EC34A34947EDBD3 /* Pods-acknowledgements.markdown */,
+				D91591B6E4FC4166AB7D995C /* Pods-acknowledgements.plist */,
+				460A943E11CA4B7A81C94608 /* Pods-dummy.m */,
+				3CB0B481A7F64F2FAE342D97 /* Pods-environment.h */,
+				8B0C52AA91B144258B8B0D8B /* Pods-resources.sh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1AC343515374973AEEC44E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD7BCDCECDC5431CA21B9BE9 /* libPods.a */,
+				82D07725AB3149748BBCE5EC /* libPods-MBProgressHUD.a */,
+				66E1C1A3A5514801B5718658 /* libPods-MagicalRecord.a */,
+				127F1391F8FE4A27A1A8EB96 /* libPods-OpenCV.a */,
+				D511962C4A1D4E2EAFF6F8F9 /* libPods-REFrostedViewController.a */,
+				3A13AAEE712645ED8DC38F23 /* libPods-TesseractOCRiOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		320A03330DE6464C8FEB7CAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9858DC5618E2413E879DB2A4 /* RECommonFunctions.h in Headers */,
+				3D8C428255C24131B7263ED8 /* REFrostedContainerViewController.h in Headers */,
+				63F30E85AB0D425796F7D773 /* REFrostedViewController.h in Headers */,
+				F34A8B53EA714DA89F8B4EAA /* UIImage+REFrostedViewController.h in Headers */,
+				35A0551F01174E159BAED412 /* UIView+REFrostedViewController.h in Headers */,
+				0B277D4A6A824E9BA0AD05F4 /* UIViewController+REFrostedViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A024FFE5A4F149E49F4F9350 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3781898598D245AB97F5CFEE /* CoreData+MagicalRecord.h in Headers */,
+				FA62AB59FB7D4664AC0C46DD /* MagicalImportFunctions.h in Headers */,
+				032DF3E4F8334661AA5C87D2 /* MagicalRecord+Actions.h in Headers */,
+				A703869889EA492AB1191823 /* MagicalRecord+ErrorHandling.h in Headers */,
+				2FD4F974E0974E39BFA86ED5 /* MagicalRecord+Options.h in Headers */,
+				381D1847D0C140A781956F47 /* MagicalRecord+Setup.h in Headers */,
+				7B60D8001D704A038E082832 /* MagicalRecord+ShorthandSupport.h in Headers */,
+				8D5E0D420B184D73906B758E /* MagicalRecord+iCloud.h in Headers */,
+				E353AE79B935425BA23565EE /* MagicalRecord.h in Headers */,
+				83E68567D1C149F18625338A /* MagicalRecordShorthand.h in Headers */,
+				C86AE9DE1B3843C7BB848A32 /* NSAttributeDescription+MagicalDataImport.h in Headers */,
+				AAC4C2063C5E4D5BBD0D4286 /* NSEntityDescription+MagicalDataImport.h in Headers */,
+				143DE25EF8BC44CD927972BC /* NSManagedObject+MagicalAggregation.h in Headers */,
+				139E217A69AC409483BE1F53 /* NSManagedObject+MagicalDataImport.h in Headers */,
+				10C7FE9902FB419D849A4B82 /* NSManagedObject+MagicalFinders.h in Headers */,
+				EC27244B95434223A0FCA52B /* NSManagedObject+MagicalRecord.h in Headers */,
+				5BED4A61785A428C8FD146ED /* NSManagedObject+MagicalRequests.h in Headers */,
+				61E4E0CCF8654ECEBB007486 /* NSManagedObjectContext+MagicalObserving.h in Headers */,
+				61D281F1501F44D6B6FDAEC5 /* NSManagedObjectContext+MagicalRecord.h in Headers */,
+				C51B8C55BAC84C838CFF5A4A /* NSManagedObjectContext+MagicalSaves.h in Headers */,
+				56B167E4D9F04C889823BF47 /* NSManagedObjectContext+MagicalThreading.h in Headers */,
+				55C341F3C6A446E48EAB02BD /* NSManagedObjectModel+MagicalRecord.h in Headers */,
+				7F3B4F692FEE4CACAB1E7FC8 /* NSNumber+MagicalDataImport.h in Headers */,
+				061963B8DA7B45AF8843C240 /* NSObject+MagicalDataImport.h in Headers */,
+				EB0E67CC5A54472CB49CA6B6 /* NSPersistentStore+MagicalRecord.h in Headers */,
+				DFF3419BB9C443C8B1CDE558 /* NSPersistentStoreCoordinator+MagicalRecord.h in Headers */,
+				4BF44AC254E5403DBE94129A /* NSRelationshipDescription+MagicalDataImport.h in Headers */,
+				1091C0DA91B148938B4BD5DC /* NSString+MagicalDataImport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71D6377527A44628478885F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CB21DD5EB3462496C00940 /* Tesseract.h in Headers */,
+				27F05242AE9349238FF3FC9C /* TesseractOCR.h in Headers */,
+				5A3F69B7EB5142588B862D90 /* allheaders.h in Headers */,
+				E543704B02B34098A86ACF0E /* alltypes.h in Headers */,
+				5039E1F26E79471791B175A9 /* ambigs.h in Headers */,
+				BEAA2EFB9060493D959AC27A /* apitypes.h in Headers */,
+				98B5D64D89F84AA7B0D37282 /* array.h in Headers */,
+				4E5AF95D60234EC1BB4C6E1C /* arrayaccess.h in Headers */,
+				40CE918E2CCA4637847DDEE1 /* baseapi.h in Headers */,
+				7E2F536D2E4B4CBD82E7D2FE /* basedir.h in Headers */,
+				7D0A9E48916940A0B49F286B /* bbuffer.h in Headers */,
+				AD6DC5DAC0F34D15B5FB95DD /* bits16.h in Headers */,
+				0D3E570EAFE44F93925C7898 /* bitvector.h in Headers */,
+				906F3909B9F946AF985A744C /* blckerr.h in Headers */,
+				7AF55462219A4180BA00AE1E /* blobbox.h in Headers */,
+				4695851F02F845DC9EE73051 /* blobs.h in Headers */,
+				936DEAF49A9E46D8B6A8E7E4 /* blread.h in Headers */,
+				0AF53DD336DC4203B144E8FE /* bmf.h in Headers */,
+				AC157F026F704FD0A3F802A4 /* bmp.h in Headers */,
+				061E63C2D3BE4AF3A92CBDC6 /* boxread.h in Headers */,
+				CCEA68C37F994C05BEB8B591 /* boxword.h in Headers */,
+				C70A8460FBF2417A80601F45 /* capi.h in Headers */,
+				D76CEA3E4BCB424B9BA960D7 /* ccbord.h in Headers */,
+				817416171ACB4332924A9286 /* ccstruct.h in Headers */,
+				81FA7D828CA4464D89FCFC8F /* ccutil.h in Headers */,
+				D4AE5E2A02BC4D0188688218 /* clst.h in Headers */,
+				AEF6D584CD014C948D918981 /* control.h in Headers */,
+				6D2C0798CDF64F5389D4AF30 /* coutln.h in Headers */,
+				BE42A2DA199345D2B56A8633 /* crakedge.h in Headers */,
+				6226CD3953E04BA28C863A85 /* cube_reco_context.h in Headers */,
+				707E104A24564E20BA78FF7A /* cubeclassifier.h in Headers */,
+				6EB73A25F8E146ADA8EB6832 /* detlinefit.h in Headers */,
+				ED538EA2D0A64F92AD35E1BF /* dewarp.h in Headers */,
+				A43C59DBD8E3452DB1C3153E /* docqual.h in Headers */,
+				9E9ACE9D46EF4653A98C7855 /* dppoint.h in Headers */,
+				54F76FA8C8E54E9BA22F8693 /* elst.h in Headers */,
+				75A9311558B3478AB09D9D73 /* elst2.h in Headers */,
+				0ED59BD357404A7F9955C4B3 /* endianness.h in Headers */,
+				30C3C85E1C234BFEB33601DD /* environ.h in Headers */,
+				0CAEC18495B840E8A13A3FC6 /* equationdetect.h in Headers */,
+				9C8BEAAB1F574D91A3DE3C07 /* errcode.h in Headers */,
+				6A70860532FC44B5B33AAE66 /* fileerr.h in Headers */,
+				044A3A2729FF4BC6915BD31C /* fixspace.h in Headers */,
+				5AC5793A4DD1462DA45F4E89 /* fontinfo.h in Headers */,
+				5EC4FB81087D4FB497073976 /* freetype.h in Headers */,
+				E023C8A59181479C88A6014F /* genblob.h in Headers */,
+				F570446FB35F4ADBAD4C15DB /* genericvector.h in Headers */,
+				B83D8862E8BB45E5B5E5B6B9 /* globaloc.h in Headers */,
+				73A3B57F081F4141B446943A /* gplot.h in Headers */,
+				1D09744FC0AD45AF8D22966C /* hashfn.h in Headers */,
+				BD787F308B7F4D5E8430E75C /* heap.h in Headers */,
+				F098EB7AE2A64800BEDDB266 /* helpers.h in Headers */,
+				D6883EBB5AE14808BE7D0EDF /* host.h in Headers */,
+				CBA13432C5A74966B6E015D1 /* hosthplb.h in Headers */,
+				2A49CDFEBDB940098821FB4C /* hpddef.h in Headers */,
+				C5119159E9664107976AC8CA /* hpdsizes.h in Headers */,
+				AB52D63A1EAA4ACBA4269758 /* imageio.h in Headers */,
+				7168AE8F87A94D7EA23316DA /* imgscale.h in Headers */,
+				998D182EBB0B47C289746688 /* indexmapbidi.h in Headers */,
+				68594E9873C748538AF72F92 /* ipoints.h in Headers */,
+				E7C0F9943FB1467CA18BFE9D /* jbclass.h in Headers */,
+				A2A183895DEC4B3E8F3A87FD /* leptwin.h in Headers */,
+				3E2D6530695A4348BEF83AD7 /* linlsq.h in Headers */,
+				E947A4B42A604970B281F9FF /* list.h in Headers */,
+				E5A9B213F96F48959682ADAF /* lsterr.h in Headers */,
+				94DAB8CCFA8B489EB1F4F84A /* ltrresultiterator.h in Headers */,
+				26B9BA8A4C5648738C4AE8FE /* matrix.h in Headers */,
+				0C7101DC0C854942B4A9E69D /* memry.h in Headers */,
+				65950B9AD87F487081E22474 /* mfcpch.h in Headers */,
+				D402C9BFAC464A389EBACA91 /* mod128.h in Headers */,
+				624CAEB227884ADCBB913317 /* morph.h in Headers */,
+				D2F86964ADAB44E98EFD8FEE /* mutableiterator.h in Headers */,
+				E0AF55A21DD945E286BD4273 /* ndminx.h in Headers */,
+				68AD2F3FED4D4EF8BA4BD3A9 /* normalis.h in Headers */,
+				023D589C6FDD4293A29CBE60 /* notdll.h in Headers */,
+				A4F21DFA68C04888A5D6275E /* nwmain.h in Headers */,
+				AB0186EDD9EE4E4880E22CA2 /* ocrblock.h in Headers */,
+				53694FAB9A9A4D5892381188 /* ocrclass.h in Headers */,
+				BCF0262242FA42CE871A7C64 /* ocrpara.h in Headers */,
+				0A7C83FF3D1A4B018675D8F7 /* ocrrow.h in Headers */,
+				2E9C828783A34C0797D96984 /* osdetect.h in Headers */,
+				92E1C4C383C84D898D8803D0 /* otsuthr.h in Headers */,
+				6BE5C6700C51468EBDBDB64F /* output.h in Headers */,
+				4590B6FD5B364DCAB61C1442 /* pageiterator.h in Headers */,
+				248197588D2E4B148CE87EE6 /* pageres.h in Headers */,
+				52E29A8C6FE44F7899951271 /* paragraphs.h in Headers */,
+				6FDEC542935744209E78D5D6 /* paragraphs_internal.h in Headers */,
+				9846E78AC94B46098FDF3267 /* params.h in Headers */,
+				93F9CB92C47C40B5912568E6 /* params_training_featdef.h in Headers */,
+				D2C6FB60C0F84F0397894036 /* paramsd.h in Headers */,
+				5891D14C387740C9B58B570C /* pdblock.h in Headers */,
+				283F6F5D3FA24D63BDEAEE0E /* pgedit.h in Headers */,
+				2704F15ED73844F383AE3F53 /* pix.h in Headers */,
+				7E069CCC89C6425EBBC3E823 /* platform.h in Headers */,
+				2FB8F4F6466744ECA0328B05 /* points.h in Headers */,
+				B1FEE0C85E214CCF87470EB9 /* polyaprx.h in Headers */,
+				783EAA40B225404194F577E0 /* polyblk.h in Headers */,
+				1F6A5FB0D54449CF9656A7EF /* ptra.h in Headers */,
+				F100C8CD30B74F8D816F8C33 /* publictypes.h in Headers */,
+				C6D16F16D29B4D5C9D1881A3 /* qrsequence.h in Headers */,
+				64C67D95B4F34833A61EB78D /* quadlsq.h in Headers */,
+				1BA14B4B46034EEF820B357F /* quadratc.h in Headers */,
+				569E7B17338C44058A7221D2 /* queue.h in Headers */,
+				E47DCDC2E7BC4EB9A653D78A /* quspline.h in Headers */,
+				6C8FA555AD6847868C6443B9 /* ratngs.h in Headers */,
+				9D479842F02445B6B2EB2A45 /* readbarcode.h in Headers */,
+				CF1F81BB995C40668D0F6E1D /* rect.h in Headers */,
+				9B87E118E6EC4BBEA1E6C222 /* regutils.h in Headers */,
+				971EBAC8CBE54CB9BF29119A /* rejctmap.h in Headers */,
+				BFEB2856886A407A97B99386 /* reject.h in Headers */,
+				C3F92ED9EDB2459482B6C936 /* resultiterator.h in Headers */,
+				81300E2C4F324B718DD7B7F5 /* scaleimg.h in Headers */,
+				526BB92C16264B97B10F4C68 /* scanutils.h in Headers */,
+				670C24E03E124F6FB2908AD4 /* seam.h in Headers */,
+				EA7D8A8C5D064DE189D74488 /* secname.h in Headers */,
+				DEC894B59D964D38A51BFC6F /* serialis.h in Headers */,
+				9141B203FAA34555AF6F994F /* sorthelper.h in Headers */,
+				955752E927A74A30A722799B /* split.h in Headers */,
+				1D91043719A348C897465B81 /* stack.h in Headers */,
+				5D0EEDADD3B545FB974A5E7D /* statistc.h in Headers */,
+				F87F0E7149794347AAA3C571 /* stderr.h in Headers */,
+				1B1DE8C2C5184FF6A2B6CADD /* stepblob.h in Headers */,
+				E59CBD9174C5451CB375C9AD /* strngs.h in Headers */,
+				65961DF5A02C48F9AB26FEFD /* sudoku.h in Headers */,
+				E9F94F38826C4641870A34D0 /* tessbox.h in Headers */,
+				4E84098403D341E4BA32F06A /* tesscallback.h in Headers */,
+				C2C9B61D39BE4C5E85E6A039 /* tessdatamanager.h in Headers */,
+				1110B675BF154C56A4ACB749 /* tessedit.h in Headers */,
+				CDDAA445ACD14544B868811A /* tesseract_cube_combiner.h in Headers */,
+				892DD33341684B8B9CEC9BB0 /* tesseractclass.h in Headers */,
+				BDC4F975AFE64566B0AD840B /* tesseractmain.h in Headers */,
+				4617038F393245BFB0BEFC37 /* tessvars.h in Headers */,
+				5D2324DF7AB344B4959442F3 /* tfacep.h in Headers */,
+				D542A1BB309546F8A5258565 /* tfacepp.h in Headers */,
+				633BAA681E0F4CC397DCB811 /* thresholder.h in Headers */,
+				732B0308ED6143308C28D7BA /* tprintf.h in Headers */,
+				F12F726E3B50407E8B0A0313 /* unichar.h in Headers */,
+				6AF3C2B698A14DD79985C384 /* unicharmap.h in Headers */,
+				B965319F66134F5AB28E4D69 /* unicharset.h in Headers */,
+				03DB044E58B94F9198C7D808 /* unicity_table.h in Headers */,
+				17CEBA367F7C4BFA9AF5F1C7 /* unicodes.h in Headers */,
+				B25EE5729CA3437CB5C25BBC /* vecfuncs.h in Headers */,
+				35D496E969734C849D785814 /* watershed.h in Headers */,
+				31FCA4B08FF84FC9A4D3F70A /* werd.h in Headers */,
+				48493FF8F90D4FD88B29D05D /* werdit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D668210F3EA848F693959E66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A96F07825545ECA7ED5E43 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09368B2C165F4AD881F9A28E /* Pods-MagicalRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC521184565349009C97C31A /* Build configuration list for PBXNativeTarget "Pods-MagicalRecord" */;
+			buildPhases = (
+				C0A0F8805CE044689586E209 /* Sources */,
+				69A9CF61440E4E9BB92545FB /* Frameworks */,
+				A024FFE5A4F149E49F4F9350 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MagicalRecord";
+			productName = "Pods-MagicalRecord";
+			productReference = 66E1C1A3A5514801B5718658 /* libPods-MagicalRecord.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		24075ED08AB041F8AA4814D9 /* Pods-TesseractOCRiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7209F28042394DC58D1148CE /* Build configuration list for PBXNativeTarget "Pods-TesseractOCRiOS" */;
+			buildPhases = (
+				05A1E5624E614DDDABA1F006 /* Sources */,
+				4E1CC9D3294E48AEB28ACA2E /* Frameworks */,
+				B71D6377527A44628478885F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TesseractOCRiOS";
+			productName = "Pods-TesseractOCRiOS";
+			productReference = 3A13AAEE712645ED8DC38F23 /* libPods-TesseractOCRiOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		295F6BDD4C68419BB9F309AC /* Pods-MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D86C8727554B15BCAA4336 /* Build configuration list for PBXNativeTarget "Pods-MBProgressHUD" */;
+			buildPhases = (
+				3726BAA12A3E4BDEBA661754 /* Sources */,
+				BF18BCCDDE6140F6A0CA2433 /* Frameworks */,
+				D668210F3EA848F693959E66 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MBProgressHUD";
+			productName = "Pods-MBProgressHUD";
+			productReference = 82D07725AB3149748BBCE5EC /* libPods-MBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3AD1DAB6A34A4096B6EDDAAC /* Pods-REFrostedViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29258990862D4BD0BBB89A7E /* Build configuration list for PBXNativeTarget "Pods-REFrostedViewController" */;
+			buildPhases = (
+				25C9F960F05F412182B164AD /* Sources */,
+				9492FE57915C49049F67F1BF /* Frameworks */,
+				320A03330DE6464C8FEB7CAD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-REFrostedViewController";
+			productName = "Pods-REFrostedViewController";
+			productReference = D511962C4A1D4E2EAFF6F8F9 /* libPods-REFrostedViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		93CFC54870DC42BA9628F15E /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387699A8CAC24803A6841CDE /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				EF216008957947309099E233 /* Sources */,
+				62C8F0CB12BB433EA333F05E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD82B3EF753427396637251 /* PBXTargetDependency */,
+				6DC087EC3E8B406488A61375 /* PBXTargetDependency */,
+				F3A74CF32A5141E8BD51F13D /* PBXTargetDependency */,
+				69894D4AC53244038A83456C /* PBXTargetDependency */,
+				1FB627FF85DD4CF28B05B8CA /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = DD7BCDCECDC5431CA21B9BE9 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E0F413C858CE4E868022461F /* Pods-OpenCV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03C7545450E2453A8CDACE58 /* Build configuration list for PBXNativeTarget "Pods-OpenCV" */;
+			buildPhases = (
+				34EEB95E7B4445919F14383D /* Sources */,
+				A839E8AB4466427BB98C5B94 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OpenCV";
+			productName = "Pods-OpenCV";
+			productReference = 127F1391F8FE4A27A1A8EB96 /* libPods-OpenCV.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277B5434FBE143FA90A8CB96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 3B35115470464C79A87743E4 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED274671BB6B46BB9C72EAFF;
+			productRefGroup = F1AC343515374973AEEC44E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93CFC54870DC42BA9628F15E /* Pods */,
+				295F6BDD4C68419BB9F309AC /* Pods-MBProgressHUD */,
+				09368B2C165F4AD881F9A28E /* Pods-MagicalRecord */,
+				E0F413C858CE4E868022461F /* Pods-OpenCV */,
+				3AD1DAB6A34A4096B6EDDAAC /* Pods-REFrostedViewController */,
+				24075ED08AB041F8AA4814D9 /* Pods-TesseractOCRiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05A1E5624E614DDDABA1F006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D64DBD9385479CBE7B3EF3 /* Pods-TesseractOCRiOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C9F960F05F412182B164AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD682522001A47F28A98CD88 /* Pods-REFrostedViewController-dummy.m in Sources */,
+				52110C886798460CA0FD2C4C /* RECommonFunctions.m in Sources */,
+				B32FAF2299E44A4394B2C8DB /* REFrostedContainerViewController.m in Sources */,
+				FE7BAD50831C455A951393F9 /* REFrostedViewController.m in Sources */,
+				1E261A66EB8F429D85C66C61 /* UIImage+REFrostedViewController.m in Sources */,
+				DA1AAE03FF5845FCBA2B9A16 /* UIView+REFrostedViewController.m in Sources */,
+				0620A4374498486B9E255585 /* UIViewController+REFrostedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34EEB95E7B4445919F14383D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6C51A8E61C4223A07CF305 /* Pods-OpenCV-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3726BAA12A3E4BDEBA661754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696E05549E3D418DB1B9637D /* MBProgressHUD.m in Sources */,
+				0D328CA0876A4BF5A3AA8499 /* Pods-MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A0F8805CE044689586E209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADFD414289B42E7917C5673 /* MagicalImportFunctions.m in Sources */,
+				3C8382D61C154179A602762D /* MagicalRecord+Actions.m in Sources */,
+				773C31219E964A58B3875811 /* MagicalRecord+ErrorHandling.m in Sources */,
+				8F35BAFA94B744B4A529298A /* MagicalRecord+Options.m in Sources */,
+				2CD35F8CEB6748FBA2E8C989 /* MagicalRecord+Setup.m in Sources */,
+				2AE8112CBFA942C49B483C1D /* MagicalRecord+ShorthandSupport.m in Sources */,
+				F52A673699F3465587ED4B5C /* MagicalRecord+iCloud.m in Sources */,
+				A39CBCFB623849E7A6E85C65 /* MagicalRecord.m in Sources */,
+				6EF475D29AEB4A1DADCB29AB /* NSAttributeDescription+MagicalDataImport.m in Sources */,
+				EE1B3BF8FD444B2FB2FB6B8F /* NSEntityDescription+MagicalDataImport.m in Sources */,
+				D5F2311A7B344F51A43864D7 /* NSManagedObject+MagicalAggregation.m in Sources */,
+				A55EE45623FB4841ABD54E0B /* NSManagedObject+MagicalDataImport.m in Sources */,
+				53C2BE9A9A334B8EAC8458D1 /* NSManagedObject+MagicalFinders.m in Sources */,
+				BF8F38A2468648CEB7E8C365 /* NSManagedObject+MagicalRecord.m in Sources */,
+				318AA0596A7841DA9BF2AFA7 /* NSManagedObject+MagicalRequests.m in Sources */,
+				A36649823F1E4B788AEC0428 /* NSManagedObjectContext+MagicalObserving.m in Sources */,
+				CE5DB57D6FF6464896009903 /* NSManagedObjectContext+MagicalRecord.m in Sources */,
+				D38FB460518A446D8E8E42C1 /* NSManagedObjectContext+MagicalSaves.m in Sources */,
+				67E93BD32B8B48949C11FE73 /* NSManagedObjectContext+MagicalThreading.m in Sources */,
+				ED13185D79D146D8A3CCC6EE /* NSManagedObjectModel+MagicalRecord.m in Sources */,
+				64D80FC8CFD14DD2BF134D91 /* NSNumber+MagicalDataImport.m in Sources */,
+				BF2FAC019D2540BC96174E6B /* NSObject+MagicalDataImport.m in Sources */,
+				E3879010D3EA4317BAC82F22 /* NSPersistentStore+MagicalRecord.m in Sources */,
+				B7334EF43B1F45DDB741E353 /* NSPersistentStoreCoordinator+MagicalRecord.m in Sources */,
+				7F111BED7A04451A88F4A239 /* NSRelationshipDescription+MagicalDataImport.m in Sources */,
+				42967DD7264349E88C63C20F /* NSString+MagicalDataImport.m in Sources */,
+				A61C176BCD3947908C205F14 /* Pods-MagicalRecord-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF216008957947309099E233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431A540CE36A421BBA80E021 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FB627FF85DD4CF28B05B8CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24075ED08AB041F8AA4814D9 /* Pods-TesseractOCRiOS */;
+			targetProxy = F1FE139E1AC34735BBC3A054 /* PBXContainerItemProxy */;
+		};
+		69894D4AC53244038A83456C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AD1DAB6A34A4096B6EDDAAC /* Pods-REFrostedViewController */;
+			targetProxy = 1D19F79EE5694388BB7346C6 /* PBXContainerItemProxy */;
+		};
+		6DC087EC3E8B406488A61375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09368B2C165F4AD881F9A28E /* Pods-MagicalRecord */;
+			targetProxy = 20D5381E54464290B08FAB18 /* PBXContainerItemProxy */;
+		};
+		CFD82B3EF753427396637251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 295F6BDD4C68419BB9F309AC /* Pods-MBProgressHUD */;
+			targetProxy = 738F4438FEAE4D54AAE422BB /* PBXContainerItemProxy */;
+		};
+		F3A74CF32A5141E8BD51F13D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0F413C858CE4E868022461F /* Pods-OpenCV */;
+			targetProxy = 3AE4508F84E54D94AFDD98DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A35F98A00CD41F29602102A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6527E10430848C9A33961EE /* Pods-MagicalRecord-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-MagicalRecord-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CC4D2CA36BF42BB85D768F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E873AF98F4134DFBA64D8CA3 /* Pods-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-MBProgressHUD-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32BEA7541E1641118F242245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA39E55F4AC4D5AA7AC1992 /* Pods-TesseractOCRiOS-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-TesseractOCRiOS-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48C2CFE95CB1433D83C78267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 408F46447AFC4A18B4DC0857 /* Pods-REFrostedViewController-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-REFrostedViewController-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4A867A4422F54CDEBFECD1C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA39E55F4AC4D5AA7AC1992 /* Pods-TesseractOCRiOS-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-TesseractOCRiOS-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4BEB691AA2DB46E2B254C9F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E873AF98F4134DFBA64D8CA3 /* Pods-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-MBProgressHUD-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		59C1E1816AA242E18C7FD06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 408F46447AFC4A18B4DC0857 /* Pods-REFrostedViewController-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-REFrostedViewController-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8883CA70BB1546F2A8A78B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A9D3764164493BBF031B04 /* Pods-OpenCV-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-OpenCV-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		99C2F30AA4734F21BFE9CE0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D82C213C6CF4ED99D132697 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9A67DE06C9AF4DCC8D872E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6527E10430848C9A33961EE /* Pods-MagicalRecord-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-MagicalRecord-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A35BC3A7152C4003B3B6B0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A9D3764164493BBF031B04 /* Pods-OpenCV-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-OpenCV-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEED5992591942D586AA40FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D82C213C6CF4ED99D132697 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F529A87B632D413D853CD752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F73CFDDAACDF4F90B6062849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03C7545450E2453A8CDACE58 /* Build configuration list for PBXNativeTarget "Pods-OpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8883CA70BB1546F2A8A78B45 /* Debug */,
+				A35BC3A7152C4003B3B6B0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		16D86C8727554B15BCAA4336 /* Build configuration list for PBXNativeTarget "Pods-MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BEB691AA2DB46E2B254C9F2 /* Debug */,
+				0CC4D2CA36BF42BB85D768F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		29258990862D4BD0BBB89A7E /* Build configuration list for PBXNativeTarget "Pods-REFrostedViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C2CFE95CB1433D83C78267 /* Debug */,
+				59C1E1816AA242E18C7FD06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		387699A8CAC24803A6841CDE /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99C2F30AA4734F21BFE9CE0B /* Debug */,
+				DEED5992591942D586AA40FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3B35115470464C79A87743E4 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73CFDDAACDF4F90B6062849 /* Debug */,
+				F529A87B632D413D853CD752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7209F28042394DC58D1148CE /* Build configuration list for PBXNativeTarget "Pods-TesseractOCRiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A867A4422F54CDEBFECD1C4 /* Debug */,
+				32BEA7541E1641118F242245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CC521184565349009C97C31A /* Build configuration list for PBXNativeTarget "Pods-MagicalRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A67DE06C9AF4DCC8D872E85 /* Debug */,
+				0A35F98A00CD41F29602102A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 277B5434FBE143FA90A8CB96 /* Project object */;
+}

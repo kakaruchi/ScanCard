@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "885936E1B18B127252CC29EBA9A36F5983CB6AC4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "885936E1B18B127252CC29EBA9A36F5983CB6AC4" : 0,
+    "E03FA28531CE5E2030D9C7EB2887BD93D93A5DD6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "759A2427-56AF-40ED-88C6-C5619ED0B76F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "885936E1B18B127252CC29EBA9A36F5983CB6AC4" : "ScanCard\/",
+    "E03FA28531CE5E2030D9C7EB2887BD93D93A5DD6" : "ScanCard\/ScanCard\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ScanCard",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ScanCard.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kakaruchi\/ScanCard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "885936E1B18B127252CC29EBA9A36F5983CB6AC4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kakaruchi\/ScanCard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E03FA28531CE5E2030D9C7EB2887BD93D93A5DD6"
+    }
+  ]
+}

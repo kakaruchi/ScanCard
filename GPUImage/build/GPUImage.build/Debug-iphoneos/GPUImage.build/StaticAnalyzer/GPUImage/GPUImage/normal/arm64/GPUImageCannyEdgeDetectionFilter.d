@@ -1,0 +1,19 @@
+dependencies: \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageCannyEdgeDetectionFilter.m \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageCannyEdgeDetectionFilter.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageFilterGroup.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageOutput.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/iOS/GPUImageContext.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GLProgram.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageFramebuffer.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageFramebufferCache.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageFilter.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageGrayscaleFilter.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageDirectionalSobelEdgeDetectionFilter.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImage3x3TextureSamplingFilter.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageDirectionalNonMaximumSuppressionFilter.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageWeakPixelInclusionFilter.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageSingleComponentGaussianBlurFilter.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageGaussianBlurFilter.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageTwoPassTextureSamplingFilter.h \
+  /Volumes/DATA/STUDY/ScanCard/GPUImage/framework/Source/GPUImageTwoPassFilter.h
